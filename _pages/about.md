@@ -15,14 +15,13 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 ## News
 
-- **Feb. 2026** — Paper *“vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment”* accepted by *Advanced Science*
-- **Sep. 2025** — Paper *“Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs”* accepted by *NeurIPS 2025*
+- **Feb. 2026** — Paper *"vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment"* accepted by *Advanced Science*
+- **Sep. 2025** — Paper *"Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs"* accepted by *NeurIPS 2025*
 - **Aug. 2025** — Started M.Sc. in Machine Learning at MBZUAI
 - **Jun. 2025** — Graduated with a B.S. in Computer Science from Shandong University
-- **Dec. 2024** — Paper *“A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy”* accepted by *AAAI 2025*
-- **Oct. 2024** — Paper *“vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy”* published in *GigaScience*
+- **Dec. 2024** — Paper *"A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy"* accepted by *AAAI 2025*
+- **Oct. 2024** — Paper *"vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy"* published in *GigaScience*
 
-  
 ## Why Connectomics?
 
-I am deeply fascinated by connectomics because I see it as a true form of big science, comparable in spirit to the international Human Genome Project and Europe’s Human Brain Project. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. However, I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. At the current level of semi-automated reconstruction and human proofreading, scaling synaptic-resolution connectomics to the whole mouse brain, let alone the human brain, remains a major challenge in time, labor, and cost. That is exactly why I am passionate about developing fully automated algorithms for connectome reconstruction and analysis. I want to help make whole-brain connectomics truly feasible, and I believe this is the right moment for AI+connectomics.
+I am deeply fascinated by connectomics because I see it as a true form of big science, comparable in spirit to the international Human Genome Project and Europe's Human Brain Project. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. However, I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. At the current level of semi-automated reconstruction and human proofreading, scaling synaptic-resolution connectomics to the whole mouse brain, let alone the human brain, remains a major challenge in time, labor, and cost. That is exactly why I am passionate about developing fully automated algorithms for connectome reconstruction and analysis. I want to help make whole-brain connectomics truly feasible, and I believe this is the right moment for AI+connectomics.
