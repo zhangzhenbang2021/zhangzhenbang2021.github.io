@@ -1,152 +1,158 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Zhenbang Zhang",
+    "email": "zhangzhenbang2021@gmail.com",
+    "phone": "+971 558899361",
+    "website": "https://zhangzhenbang2021.github.io",
+    "summary": "M.Sc. in Machine Learning at MBZUAI | Computational Connectomics | Neural Circuit Reconstruction",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Abu Dhabi",
+      "countryCode": "AE",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "zUD-nWMAAAAJ",
+        "url": "https://scholar.google.com/citations?user=zUD-nWMAAAAJ&hl=zh-CN"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "zhangzhenbang2021",
+        "url": "https://github.com/zhangzhenbang2021"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) and Shandong University",
+      "position": "Research Assistant",
+      "website": "https://www.mbzuai.ac.ae",
+      "startDate": "2025-10",
+      "endDate": "Present",
+      "summary": "Research on computational foundations for connectomics using volume electron microscopy, focusing on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping.",
+      "highlights": [
+        "Conduct research on computational foundations for connectomics using volume electron microscopy",
+        "Focus on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping",
+        "Investigate scalable neuron segmentation and tracking methods for dense connectome reconstruction"
+      ]
+    },
+    {
+      "company": "Mathematics and Interdisciplinary Science Center, Shandong University",
+      "position": "Research Intern",
+      "website": "https://www.math.qda.edu.cn",
+      "startDate": "2023-07",
+      "endDate": "2025-10",
+      "summary": "Research on computational pipelines for serial-section volume electron microscopy, with emphasis on 3D registration, reconstruction fidelity, and scalability for connectomics datasets.",
+      "highlights": [
+        "Developed Gaussian filter-based 3D registration method for serial section electron microscopy (AAAI 2025)",
+        "Proposed unsupervised trajectory-optimization framework based on Neural ODEs (NeurIPS 2025)",
+        "Developed vEMRec end-to-end 3D reconstruction pipeline validated on 1TB+ real-world datasets (Advanced Science 2026)"
+      ]
+    },
+    {
+      "company": "Mathematics and Interdisciplinary Science Center, Shandong University",
+      "position": "Research Intern",
+      "website": "https://www.math.qda.edu.cn",
+      "startDate": "2022-06",
+      "endDate": "2023-07",
+      "summary": "Worked on computational stitching of ultra-high-resolution microscopy image sequences for large-scale volume electron microscopy reconstruction.",
+      "highlights": [
+        "Developed automatic stitching methods for large-scale volume electron microscopy datasets",
+        "Improved continuity across sections for downstream connectomics workflows",
+        "Co-first-authored paper on volume electron microscopy stitching (GigaScience 2024)"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
+      "institution": "Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)",
+      "area": "M.Sc. in Machine Learning",
+      "studyType": "Master of Science",
+      "startDate": "2025-09",
+      "endDate": "Present",
+      "gpa": "92/100",
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "institution": "Shandong University",
+      "area": "B.S. in Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "gpa": "86/100",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": ["Python", "C++", "C", "MATLAB", "LaTeX"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Chinese",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent (IELTS: 6.5)"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Computational connectomics",
+      "keywords": []
+    },
+    {
+      "name": "Synaptic-resolution connectome reconstruction",
+      "keywords": []
+    },
+    {
+      "name": "Dense neuron segmentation and tracking",
+      "keywords": []
+    },
+    {
+      "name": "Machine learning for multimodal connectomics",
+      "keywords": []
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment",
+      "publisher": "Advanced Science",
+      "releaseDate": "2026",
+      "website": "",
+      "summary": "Zhang Zhenbang, Li Hongjia, Yang Zhongjun, Xu Zhiqiang, Sun Duanchen, Gao Xin, Zhang Fa, and Han Renmin. An end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs",
+      "publisher": "NeurIPS 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Zhang Zhenbang, Feng Jingtong, Li Hongjia, El-Messiry Haythem, Xu Zhiqiang, and Han Renmin. An unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy",
+      "publisher": "AAAI 2025",
+      "releaseDate": "2025",
+      "website": "",
+      "summary": "Zhang Zhenbang, Li Hongjia, Xu Zhiqiang, Meng Wenjia, and Han Renmin. A Gaussian filter-based 3D registration method for serial section electron microscopy."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy",
+      "publisher": "GigaScience",
+      "releaseDate": "2024",
+      "website": "",
+      "summary": "He Bintao, Zhang Yan, Zhang Zhenbang, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin. An algorithm for fully automatic image stitching of volume electron microscopy."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
