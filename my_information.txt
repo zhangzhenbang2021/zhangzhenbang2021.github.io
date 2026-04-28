@@ -1,0 +1,182 @@
+\documentclass[11pt,a4paper]{article}
+
+% ==================== Packages ====================
+\usepackage[a4paper,margin=1.6cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{ragged2e}
+\usepackage{setspace}
+
+% ==================== Basic Style ====================
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+\linespread{1.05}
+
+\definecolor{sectioncolor}{HTML}{1F3A5F}
+\definecolor{linkcolor}{HTML}{0B5394}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=linkcolor,
+    linkcolor=linkcolor
+}
+
+\titleformat{\section}
+  {\large\bfseries\color{sectioncolor}}
+  {}
+  {0em}
+  {}
+  [\vspace{0.2em}\titlerule]
+
+\titlespacing{\section}{0pt}{1.0em}{0.6em}
+
+\setlist[itemize]{
+    leftmargin=1.5em,
+    itemsep=0.2em,
+    topsep=0.2em
+}
+
+% ==================== Custom Commands ====================
+\newcommand{\resumeSubheading}[4]{
+    \begin{tabularx}{\textwidth}{@{}Xr@{}}
+        \textbf{#1} & \textit{#2} \\
+        #3 & #4 \\
+    \end{tabularx}
+}
+
+\newcommand{\resumeText}[1]{
+    \begin{justify}
+    #1
+    \end{justify}
+}
+
+% ==================== Document ====================
+\begin{document}
+
+% ==================== Header ====================
+\begin{center}
+    {\LARGE\textbf{Zhenbang Zhang}} \\[0.4em]
+    \small
+    Mohamed bin Zayed University of Artificial Intelligence (MBZUAI) \\[0.2em]
+    \href{mailto:zhangzhenbang2021@gmail.com}{zhangzhenbang2021@gmail.com}
+    \;|\;
+    \href{mailto:Zhenbang.Zhang@mbzuai.ac.ae}{Zhenbang.Zhang@mbzuai.ac.ae}
+    \\[0.2em]
+    +971 558899361
+    \;|\;
+    +86 15753409021
+    \;|\;
+    \href{https://scholar.google.com/citations?user=zUD-nWMAAAAJ&hl=zh-CN}{Google Scholar}
+    \;|\;
+    \href{https://zhangzhenbang2021.github.io}{Personal Website}
+\end{center}
+% ==================== Education ====================
+\section{Education}
+
+\resumeSubheading
+{Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)}{Sept 2025 -- Present}
+{M.Sc. in Machine Learning}{GPA: 92/100}
+
+\vspace{0.4em}
+
+\resumeSubheading
+{Shandong University}{Sept 2021 -- June 2025}
+{B.S. in Computer Science}{GPA: 86/100}
+
+I am a first-year M.Sc. student in Machine Learning at MBZUAI, working at the intersection of connectomics, computational neuroscience, and machine learning. My current research focuses on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
+
+My research interests include computational connectomics, synaptic-resolution circuit reconstruction, dense neuron segmentation and tracking, and machine learning for large-scale biological image analysis. I am particularly interested in building scalable algorithms and data pipelines for the reconstruction, annotation, and interpretation of connectomics datasets.
+
+I am deeply fascinated by connectomics because I see it as a true form of big science, closer in spirit to the international Human Genome Project and Europe’s Human Brain Project than to a conventional small-scale research problem. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. But I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. For this reason, I believe this is the right moment for AI + connectomics.
+
+
+\section{Research Interests}
+Computational connectomics, Synaptic-resolution connectome reconstruction, Dense neuron segmentation and tracking, Machine learning for multimodal connectomics
+
+% ==================== Publications ====================
+\section{ Publications}
+
+\begin{itemize}
+    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Li Hongjia$^{\dagger}$, Yang Zhongjun, Xu Zhiqiang, Sun Duanchen, Gao Xin, Zhang Fa, and Han Renmin. 
+    vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment. 
+    \textit{Advanced Science}, 2026.
+
+    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Feng Jingtong$^{\dagger}$, Li Hongjia, El-Messiry Haythem, Xu Zhiqiang, and Han Renmin. 
+    Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs. 
+    \textit{NeurIPS 2025}.
+
+    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Li Hongjia$^{\dagger}$, Xu Zhiqiang, Meng Wenjia, and Han Renmin. 
+    A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy. 
+    \textit{AAAI 2025}.
+
+    \item He Bintao$^{\dagger}$, Zhang Yan$^{\dagger}$, \textbf{Zhang Zhenbang}$^{\dagger}$, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin. 
+    vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy. 
+    \textit{GigaScience}, 13, giae076, 2024.
+\end{itemize}
+
+{\footnotesize $^{\dagger}$ Equal contribution.}
+
+
+
+
+
+
+
+
+% ==================== Research Experience ====================
+\section{Research Experience}
+
+\resumeSubheading
+{Research Assistant, MBZUAI and Shandong University}{Oct. 2025 -- Present}
+{Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu}{Abu Dhabi, UAE / Qingdao, China}
+
+\begin{itemize}
+    \item Conduct research on computational foundations for connectomics using volume electron microscopy, with a focus on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping.
+    \item Develop methods to recover high-fidelity 3D ultrastructure from anisotropic volume electron microscopy data, improving structural continuity and reconstruction quality for downstream neuron tracing and connectome analysis.
+    \item Investigate scalable neuron segmentation and tracking methods for dense connectome reconstruction and downstream neuronal circuit analysis.
+\end{itemize}
+
+\resumeSubheading
+{Research Intern, Mathematics and Interdisciplinary Science Center, Shandong University}{Jul. 2023 -- Oct. 2025}
+{Advisor: Prof. Renmin Han}{Qingdao, China}
+
+\begin{itemize}
+    \item Conducted research on computational pipelines for serial-section volume electron microscopy, with emphasis on 3D registration, reconstruction fidelity, and scalability for connectomics datasets.
+    \item Developed a Gaussian filter-based 3D registration method for serial section electron microscopy, improving section alignment for downstream neuronal reconstruction; accepted by \textit{AAAI 2025}.
+    \item Proposed an unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration in serial section electron microscopy, improving structural consistency across sections; accepted by \textit{NeurIPS 2025}.
+    \item Developed \textit{vEMRec}, an end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB, demonstrating improved ultrastructural recovery and processing efficiency for connectome-scale analysis; accepted by \textit{Advanced Science}.
+\end{itemize}
+
+\resumeSubheading
+{Research Intern, Mathematics and Interdisciplinary Science Center, Shandong University}{Jun. 2022 -- Jul. 2023}
+{Advisor: Prof. Renmin Han}{Qingdao, China}
+
+\begin{itemize}
+    \item Worked on computational stitching of ultra-high-resolution microscopy image sequences as a precursor to large-scale volume electron microscopy reconstruction.
+    \item Developed automatic stitching methods for large-scale volume electron microscopy datasets, improving continuity across sections and supporting downstream connectomics workflows.
+    \item Co-first-authored a paper on volume electron microscopy stitching published in \textit{GigaScience}.
+\end{itemize}
+
+
+
+
+
+
+% ==================== Skills ====================
+\section{Skills}
+
+\textbf{Programming Languages:} Python, C++, C, MATLAB, LaTeX
+
+\textbf{Languages:} Chinese (Native), English (Fluent, IELTS: 6.5)
+
+\end{document}
+
+
+

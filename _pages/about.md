@@ -19,8 +19,8 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 - **2025** &mdash; Paper "Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs" accepted by *NeurIPS 2025*
 - **2025** &mdash; Paper "A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy" accepted by *AAAI 2025*
 - **2024** &mdash; Paper "vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy" published in *GigaScience*
-- **2025** &mdash; Started M.Sc. in Machine Learning at MBZUAI (GPA: 92/100)
-- **2025** &mdash; Graduated B.S. in Computer Science from Shandong University (GPA: 86/100)
+- **2025** &mdash; Started M.Sc. in Machine Learning at MBZUAI
+- **2025** &mdash; Graduated B.S. in Computer Science from Shandong University
 
 ## Why Connectomics?
 
