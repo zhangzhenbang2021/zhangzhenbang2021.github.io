@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+**[Download CV as PDF]({{ site.baseurl }}/CV.pdf)**
+
 Education
 ======
 * **M.Sc. in Machine Learning**, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Sept 2025 -- Present
