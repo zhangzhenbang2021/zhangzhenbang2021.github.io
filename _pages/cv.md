@@ -25,27 +25,30 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 Research Experience
 ======
-* **Research Assistant**, MBZUAI and Shandong University, Oct. 2025 -- Present
-  * Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu
-  * Location: Abu Dhabi, UAE / Qingdao, China
-  * Conduct research on computational foundations for connectomics using volume electron microscopy, with a focus on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping.
+* **Research Assistant**, MBZUAI, Advisors: Prof. Zhiqiang Xu, Oct. 2025 -- Present
+  * Location: Abu Dhabi, UAE
+  * Lead research on computational connectomics from volume electron microscopy, focusing on isotropic reconstruction, volumetric restoration, and dense neuronal reconstruction for synaptic-resolution circuit mapping.
   * Develop methods to recover high-fidelity 3D ultrastructure from anisotropic volume electron microscopy data, improving structural continuity and reconstruction quality for downstream neuron tracing and connectome analysis.
-  * Investigate scalable neuron segmentation and tracking methods for dense connectome reconstruction and downstream neuronal circuit analysis.
+  * Build scalable neuron segmentation and tracking pipelines for dense connectome reconstruction and neuronal circuit analysis in large-scale datasets.
 
-* **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Jul. 2023 -- Oct. 2025
-  * Advisor: Prof. Renmin Han
+* **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Advisor: Prof. Renmin Han, Jul. 2023 -- Oct. 2025
   * Location: Qingdao, China
-  * Conducted research on computational pipelines for serial-section volume electron microscopy, with emphasis on 3D registration, reconstruction fidelity, and scalability for connectomics datasets.
-  * Developed a Gaussian filter-based 3D registration method for serial section electron microscopy, improving section alignment for downstream neuronal reconstruction; accepted by *AAAI 2025*.
-  * Proposed an unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration in serial section electron microscopy, improving structural consistency across sections; accepted by *NeurIPS 2025*.
-  * Developed *vEMRec*, an end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB, demonstrating improved ultrastructural recovery and processing efficiency for connectome-scale analysis; accepted by *Advanced Science*.
+  * Designed computational pipelines for serial-section volume electron microscopy with emphasis on 3D registration accuracy, ultrastructural fidelity, and scalability for connectomics datasets.
+  * Developed a Gaussian filter-based 3D registration method that departed from conventional registration paradigms, introducing a new perspective for serial-section electron microscopy alignment and achieving more than 20% improvement in accuracy; first-author paper accepted to *AAAI 2025*.
+  * Proposed an unsupervised trajectory-optimization framework based on Neural ODEs, extending and consolidating our earlier work while establishing a new registration paradigm that improves cross-section structural consistency in serial-section electron microscopy; first-author paper accepted to *NeurIPS 2025*.
+  * Developed *vEMRec*, an end-to-end 3D alignment pipeline for volume electron microscopy, validated on six real-world datasets exceeding 1 TB, demonstrating strong applicability in large-scale realistic settings through improved ultrastructural recovery and processing efficiency for connectome-scale analysis; first-author paper accepted to *Advanced Science*.
 
-* **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Jun. 2022 -- Jul. 2023
-  * Advisor: Prof. Renmin Han
+* **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Advisor: Prof. Renmin Han, Jun. 2022 -- Jul. 2023
   * Location: Qingdao, China
-  * Worked on computational stitching of ultra-high-resolution microscopy image sequences as a precursor to large-scale volume electron microscopy reconstruction.
-  * Developed automatic stitching methods for large-scale volume electron microscopy datasets, improving continuity across sections and supporting downstream connectomics workflows.
-  * Co-first-authored a paper on volume electron microscopy stitching published in *GigaScience*.
+  * Developed automatic stitching methods for ultra-high-resolution volume electron microscopy image sequences, supporting large-scale 3D reconstruction and downstream connectomics workflows.
+  * Co-first-authored *vEMstitch*, a fully automatic stitching method for volume electron microscopy, published in *GigaScience 2024*.
+
+Teaching Experience
+======
+* **Teaching Assistant, Linear Algebra**, Shandong University, 2023 -- 2024
+  * Location: Qingdao, China
+  * Supported undergraduate instruction in linear algebra through problem-solving sessions, office hours, and assignment grading.
+  * Strengthened scientific communication and mentoring skills through one-on-one support.
 
 Publications
 ======
