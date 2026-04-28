@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), working at the intersection of connectomics, computational neuroscience, and machine learning. My current research focuses on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
+I am a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), advised by [Zhiqiang Xu](https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en). My research lies at the intersection of connectomics, computational neuroscience, and machine learning. I am currently working on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
 
 ## Research Interests
 
