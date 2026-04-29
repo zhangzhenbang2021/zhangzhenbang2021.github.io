@@ -15,12 +15,12 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 ## News
 
-- **Feb. 2026** — Paper *"vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment"* accepted by ***Advanced Science*** (一作)
-- **Sep. 2025** — Paper *"Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs"* accepted by ***NeurIPS 2025*** (一作)
+- **Feb. 2026** — Paper *"vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment"* accepted by ***Advanced Science*** (First author)
+- **Sep. 2025** — Paper *"Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs"* accepted by ***NeurIPS 2025*** (First author)
 - **Aug. 2025** — Started M.Sc. in Machine Learning at MBZUAI
 - **Jun. 2025** — Graduated with a B.S. in Computer Science from Shandong University
-- **Dec. 2024** — Paper *"A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy"* accepted by ***AAAI 2025*** (一作)
-- **Oct. 2024** — Paper *"vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy"* published in ***GigaScience*** (共一第三)
+- **Dec. 2024** — Paper *"A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy"* accepted by ***AAAI 2025*** (First author)
+- **Oct. 2024** — Paper *"vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy"* published in ***GigaScience*** (Co-first, 3rd)
 
 ## Why Connectomics?
 
