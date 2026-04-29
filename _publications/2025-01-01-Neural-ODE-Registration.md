@@ -5,7 +5,7 @@ category: conferences
 permalink: /publication/Neural-ODE-Registration-NeurIPS-2025
 excerpt: 'An unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration in serial section electron microscopy.'
 date: 2025-01-01
-venue: 'NeurIPS 2025'
+venue: 'Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)'
 authors: '<b>Zhang Zhenbang</b><sup>‡</sup>, Feng Jingtong<sup>‡</sup>, Li Hongjia, El-Messiry Haythem, Xu Zhiqiang, and Han Renmin'
 ---
 
