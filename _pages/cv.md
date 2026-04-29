@@ -17,7 +17,7 @@ Education
   * GPA: 3.78/4.0
 
 * **B.S. in Computer Science**, Shandong University, Sept 2021 -- June 2025
-  * GPA: 3.52/5.0
+  * GPA: 3.52/4.0
 
 Research Interests
 ======
