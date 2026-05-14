@@ -27,9 +27,8 @@ Research Experience
 ======
 * **Research Assistant**, MBZUAI, Advisors: Prof. Zhiqiang Xu, Oct. 2025 -- Present
   * Location: Abu Dhabi, UAE
-  * Lead research on computational connectomics from volume electron microscopy, focusing on isotropic reconstruction, volumetric restoration, and dense neuronal reconstruction for synaptic-resolution circuit mapping.
-  * Develop methods to recover high-fidelity 3D ultrastructure from anisotropic volume electron microscopy data, improving structural continuity and reconstruction quality for downstream neuron tracing and connectome analysis.
-  * Build scalable neuron segmentation and tracking pipelines for dense connectome reconstruction and neuronal circuit analysis in large-scale datasets.
+  * **Lead research on isotropic reconstruction and image restoration for volume EM connectomics**, developing methods to improve z-axis resolution, recover missing or degraded ultrastructure, and enhance 3D volume quality for downstream synaptic-resolution circuit reconstruction.
+  * **Investigate automatic proofreading methods for large-scale connectome reconstruction**, aiming to identify and correct segmentation errors, reduce manual proofreading burden, and improve the reliability of analysis-ready connectomics datasets.
 
 * **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Advisor: Prof. Renmin Han, Jul. 2023 -- Oct. 2025
   * Location: Qingdao, China
