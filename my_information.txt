@@ -104,6 +104,10 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \section{ Publications}
 
 \begin{itemize}
+    \item \textbf{Zhang, Z.}$^{\dagger}$, Cui, Z.$^{\dagger}$, El-Messiry, H., Han, R., \& Xu, Z. (2026).
+    Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening.
+    In \textit{Proceedings of the Forty-Third International Conference on Machine Learning}.
+
     \item \textbf{Zhang Zhenbang}$^{\dagger}$, Li Hongjia$^{\dagger}$, Yang Zhongjun, Xu Zhiqiang, Sun Duanchen, Gao Xin, Zhang Fa, and Han Renmin. 
     vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment. 
     \textit{Advanced Science}, 2026.

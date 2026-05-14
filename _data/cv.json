@@ -124,6 +124,13 @@
   "references": [],
   "publications": [
     {
+      "name": "Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening",
+      "publisher": "Proceedings of the Forty-Third International Conference on Machine Learning",
+      "releaseDate": "2026-05",
+      "website": "",
+      "summary": "Zhang, Z., Cui, Z., El-Messiry, H., Han, R., and Xu, Z. Accepted in May 2026."
+    },
+    {
       "name": "vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment",
       "publisher": "Advanced Science",
       "releaseDate": "2026",

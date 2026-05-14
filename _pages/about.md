@@ -15,6 +15,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 ## News
 
+- **May 2026** -- Paper *"Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening"* accepted by ***ICML 2026*** (Co-first author)
 - **Feb. 2026** — Paper *"vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment"* accepted by ***Advanced Science*** (First author)
 - **Sep. 2025** — Paper *"Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs"* accepted by ***NeurIPS 2025*** (First author)
 - **Aug. 2025** — Started M.Sc. in Machine Learning at MBZUAI
