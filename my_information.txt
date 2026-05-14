@@ -104,7 +104,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \section{ Publications}
 
 \begin{itemize}
-    \item \textbf{Zhang, Z.}$^{\dagger}$, Cui, Z.$^{\dagger}$, El-Messiry, H., Han, R., \& Xu, Z. (2026).
+    \item \textbf{Zhenbang Zhang}$^{\dagger}$, Zihui Cui$^{\dagger}$, Haythem El-Messiry, Renmin Han, \& Zhiqiang Xu. (2026).
     Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening.
     In \textit{Proceedings of the Forty-Third International Conference on Machine Learning}.
 

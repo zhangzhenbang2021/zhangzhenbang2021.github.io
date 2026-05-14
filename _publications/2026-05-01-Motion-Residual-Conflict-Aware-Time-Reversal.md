@@ -6,10 +6,10 @@ permalink: /publication/Motion-Residual-Conflict-Aware-Time-Reversal-ICML-2026
 excerpt: 'A motion-residual conflict-aware time-reversal method for generative inbetweening, accepted by ICML 2026 in May 2026.'
 date: 2026-05-01
 venue: 'Forty-Third International Conference on Machine Learning (ICML)'
-authors: '<b>Zhang, Z.</b><sup>&dagger;</sup>, Cui, Z.<sup>&dagger;</sup>, El-Messiry, H., Han, R., and Xu, Z.'
+authors: '<b>Zhenbang Zhang</b><sup>&dagger;</sup>, Zihui Cui<sup>&dagger;</sup>, Haythem El-Messiry, Renmin Han, and Zhiqiang Xu'
 ---
 
-**Zhang, Z.**<sup>&dagger;</sup>, Cui, Z.<sup>&dagger;</sup>, El-Messiry, H., Han, R., and Xu, Z.
+**Zhenbang Zhang**<sup>&dagger;</sup>, Zihui Cui<sup>&dagger;</sup>, Haythem El-Messiry, Renmin Han, and Zhiqiang Xu.
 
 <sup>&dagger;</sup> Equal contribution.
 
