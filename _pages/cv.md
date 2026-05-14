@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * **M.Sc. in Machine Learning**, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Sept 2025 -- Present
-  * GPA: 3.78/4.0
+  * GPA: 3.7/4.0
 
 * **B.S. in Computer Science**, Shandong University, Sept 2021 -- June 2025
   * GPA: 3.52/4.0
