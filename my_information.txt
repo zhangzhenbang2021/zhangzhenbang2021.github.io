@@ -94,7 +94,7 @@ I am a first-year M.Sc. student in Machine Learning at MBZUAI, working at the in
 
 My research interests include computational connectomics, synaptic-resolution circuit reconstruction, dense neuron segmentation and tracking, and machine learning for large-scale biological image analysis. I am particularly interested in building scalable algorithms and data pipelines for the reconstruction, annotation, and interpretation of connectomics datasets.
 
-I am deeply fascinated by connectomics because I see it as a true form of big science, closer in spirit to the international Human Genome Project and Europe’s Human Brain Project than to a conventional small-scale research problem. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. But I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. For this reason, I believe this is the right moment for AI + connectomics.
+I am deeply fascinated by connectomics because I see it as a true form of big science, where progress depends on large-scale data, advanced algorithms, and collaborative infrastructure. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. But I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. For this reason, I believe this is the right moment for AI + connectomics.
 
 
 \section{Research Interests}
