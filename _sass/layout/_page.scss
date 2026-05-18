@@ -183,6 +183,7 @@
 
 a.footnote[data-cite-preview] {
   position: relative;
+  color: #000;
   text-decoration: none;
 }
 
@@ -241,6 +242,10 @@ html[data-theme="dark"] {
   .connectomics-essay {
     background: linear-gradient(135deg, rgba(14, 161, 197, 0.15), rgba(14, 161, 197, 0.04));
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22);
+  }
+
+  a.footnote[data-cite-preview] {
+    color: #fff;
   }
 
   a.footnote[data-cite-preview]::after {
