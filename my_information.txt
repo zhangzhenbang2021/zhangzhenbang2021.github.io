@@ -112,19 +112,19 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
     Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening.
     In \textit{Proceedings of the Forty-Third International Conference on Machine Learning}.
 
-    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Li Hongjia$^{\dagger}$, Yang Zhongjun, Xu Zhiqiang, Sun Duanchen, Gao Xin, Zhang Fa, and Han Renmin. 
+    \item \textbf{Zhenbang Zhang}$^{\dagger}$, Hongjia Li$^{\dagger}$, Zhongjun Yang, Zhiqiang Xu, Duanchen Sun, Xin Gao, Fa Zhang, and Renmin Han.
     vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment. 
     \textit{Advanced Science}, 2026.
 
-    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Feng Jingtong$^{\dagger}$, Li Hongjia, El-Messiry Haythem, Xu Zhiqiang, and Han Renmin. 
+    \item \textbf{Zhenbang Zhang}$^{\dagger}$, Jingtong Feng$^{\dagger}$, Hongjia Li, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han.
     Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs. 
     \textit{NeurIPS 2025}.
 
-    \item \textbf{Zhang Zhenbang}$^{\dagger}$, Li Hongjia$^{\dagger}$, Xu Zhiqiang, Meng Wenjia, and Han Renmin. 
+    \item \textbf{Zhenbang Zhang}$^{\dagger}$, Hongjia Li$^{\dagger}$, Zhiqiang Xu, Wenjia Meng, and Renmin Han.
     A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy. 
     \textit{AAAI 2025}.
 
-    \item He Bintao$^{\dagger}$, Zhang Yan$^{\dagger}$, \textbf{Zhang Zhenbang}$^{\dagger}$, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin. 
+    \item Bintao He$^{\dagger}$, Yan Zhang$^{\dagger}$, \textbf{Zhenbang Zhang}$^{\dagger}$, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han.
     vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy. 
     \textit{GigaScience}, 13, giae076, 2024.
 \end{itemize}

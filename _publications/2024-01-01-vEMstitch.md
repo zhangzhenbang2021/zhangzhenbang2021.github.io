@@ -6,10 +6,10 @@ permalink: /publication/vEMstitch-2024
 excerpt: 'An algorithm for fully automatic image stitching of volume electron microscopy, improving continuity across sections for downstream connectomics workflows.'
 date: 2024-01-01
 venue: 'GigaScience'
-authors: 'He Bintao<sup>‡</sup>, Zhang Yan<sup>‡</sup>, <b>Zhang Zhenbang</b><sup>‡</sup>, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin'
+authors: 'Bintao He<sup>‡</sup>, Yan Zhang<sup>‡</sup>, <b>Zhenbang Zhang</b><sup>‡</sup>, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han'
 ---
 
-**He Bintao**<sup>‡</sup>, Zhang Yan<sup>‡</sup>, **Zhang Zhenbang**<sup>‡</sup>, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin.
+**Bintao He**<sup>‡</sup>, Yan Zhang<sup>‡</sup>, **Zhenbang Zhang**<sup>‡</sup>, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han.
 
 <sup>‡</sup> Equal contribution.
 

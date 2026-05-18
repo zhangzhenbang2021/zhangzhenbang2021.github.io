@@ -141,28 +141,28 @@
       "publisher": "Advanced Science",
       "releaseDate": "2026",
       "website": "",
-      "summary": "Zhang Zhenbang, Li Hongjia, Yang Zhongjun, Xu Zhiqiang, Sun Duanchen, Gao Xin, Zhang Fa, and Han Renmin. An end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB."
+      "summary": "Zhenbang Zhang, Hongjia Li, Zhongjun Yang, Zhiqiang Xu, Duanchen Sun, Xin Gao, Fa Zhang, and Renmin Han. An end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB."
     },
     {
       "name": "Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs",
       "publisher": "NeurIPS 2025",
       "releaseDate": "2025",
       "website": "",
-      "summary": "Zhang Zhenbang, Feng Jingtong, Li Hongjia, El-Messiry Haythem, Xu Zhiqiang, and Han Renmin. An unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration."
+      "summary": "Zhenbang Zhang, Jingtong Feng, Hongjia Li, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. An unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration."
     },
     {
       "name": "A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy",
       "publisher": "AAAI 2025",
       "releaseDate": "2025",
       "website": "",
-      "summary": "Zhang Zhenbang, Li Hongjia, Xu Zhiqiang, Meng Wenjia, and Han Renmin. A Gaussian filter-based 3D registration method for serial section electron microscopy."
+      "summary": "Zhenbang Zhang, Hongjia Li, Zhiqiang Xu, Wenjia Meng, and Renmin Han. A Gaussian filter-based 3D registration method for serial section electron microscopy."
     },
     {
       "name": "vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy",
       "publisher": "GigaScience",
       "releaseDate": "2024",
       "website": "",
-      "summary": "He Bintao, Zhang Yan, Zhang Zhenbang, Cheng Yiran, Zhang Fa, Sun Fei, and Han Renmin. An algorithm for fully automatic image stitching of volume electron microscopy."
+      "summary": "Bintao He, Yan Zhang, Zhenbang Zhang, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han. An algorithm for fully automatic image stitching of volume electron microscopy."
     }
   ],
   "presentations": [],
