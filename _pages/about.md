@@ -28,11 +28,26 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 <div class="connectomics-essay" markdown="1">
 
-Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1], [^2] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^2], [^3] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function is constrained by its physical wiring.[^3], [^4] Advances in high-throughput volume electron microscopy and deep learning-based segmentation have made synapse-level circuit mapping increasingly feasible, while also revealing major remaining challenges in reconstruction, annotation, and interpretation.[^1], [^5]
+<details class="connectomics-section" open markdown="1">
+<summary>Synapse-level maps of neural circuits</summary>
 
-For neuroscience, connectomics matters because it makes explanations of brain function structurally grounded.[^2], [^3] Neural activity, cell types, gene expression, and behavior become more interpretable when anchored to the question of **who connects to whom**.[^4], [^6] A synapse-level connectome can turn biological observations into testable circuit mechanisms: how information flows through a network, which motifs support local computation, how different cell types interact, and how structural changes may contribute to disease.[^3], [^6], [^7] In this sense, connectomics is not simply about producing detailed maps; it is about providing circuit-level ground truth for understanding how neural computation is physically implemented.[^2], [^8]
+Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^2] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function is constrained by its physical wiring.[^3] Advances in high-throughput volume electron microscopy and deep learning-based segmentation have made synapse-level circuit mapping increasingly feasible, while also revealing major remaining challenges in reconstruction, annotation, and interpretation.[^5]
 
-For AI and computing, connectomics sits at the intersection of large-scale machine learning, computer vision, distributed systems, databases, and collaborative scientific infrastructure.[^5], [^9] Nanometer-resolution imaging can generate petascale data, but turning raw images into reliable circuit maps requires many computational areas to work together: **computer vision** for dense reconstruction, **self-supervised representation learning** for data-efficient annotation, **distributed inference** for processing massive volumes, **human-in-the-loop proofreading** for correcting biological graphs, **scalable storage** for managing image and graph data, **versioned databases** for tracking evolving reconstructions, **fast query systems** for scientific analysis, and **collaborative infrastructure** for shared work across teams.[^5], [^9], [^10] This is the frontier that motivates my work: building AI methods and computational systems that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help transform raw biological images into maps of neural computation.
+</details>
+
+<details class="connectomics-section" open markdown="1">
+<summary>Circuit-level ground truth for neuroscience</summary>
+
+For neuroscience, connectomics matters because it makes explanations of brain function structurally grounded.[^4] Neural activity, cell types, gene expression, and behavior become more interpretable when anchored to the question of **who connects to whom**.[^6] A synapse-level connectome can turn biological observations into testable circuit mechanisms: how information flows through a network, which motifs support local computation, how different cell types interact, and how structural changes may contribute to disease.[^7] In this sense, connectomics is not simply about producing detailed maps; it is about providing circuit-level ground truth for understanding how neural computation is physically implemented.[^8]
+
+</details>
+
+<details class="connectomics-section" open markdown="1">
+<summary>AI systems for scalable reconstruction</summary>
+
+For AI and computing, connectomics sits at the intersection of large-scale machine learning, computer vision, distributed systems, databases, and collaborative scientific infrastructure.[^9] Nanometer-resolution imaging can generate petascale data, but turning raw images into reliable circuit maps requires many computational areas to work together: **computer vision** for dense reconstruction, **self-supervised representation learning** for data-efficient annotation, **distributed inference** for processing massive volumes, **human-in-the-loop proofreading** for correcting biological graphs, **scalable storage** for managing image and graph data, **versioned databases** for tracking evolving reconstructions, **fast query systems** for scientific analysis, and **collaborative infrastructure** for shared work across teams.[^10] This is the frontier that motivates my work: building AI methods and computational systems that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help transform raw biological images into maps of neural computation.
+
+</details>
 
 </div>
 

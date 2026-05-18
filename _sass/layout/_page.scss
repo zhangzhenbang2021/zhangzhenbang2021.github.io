@@ -109,7 +109,7 @@
 
 .connectomics-essay {
   margin: 1.25em 0 1.5em;
-  padding: 1.15em 1.25em;
+  padding: 1em 1.1em;
   border: 1px solid var(--global-border-color);
   border-left: 5px solid var(--global-base-color);
   border-radius: 6px;
@@ -117,9 +117,46 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
   font-size: 0.86em;
 
+  &.connectomics-reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+  }
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .connectomics-section {
+    padding: 0.8em 0;
+    border-top: 1px solid var(--global-border-color);
+
+    &:first-child {
+      padding-top: 0;
+      border-top: 0;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    summary {
+      cursor: pointer;
+      color: var(--global-base-color);
+      font-family: $sans-serif;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    summary::marker {
+      color: var(--global-base-color);
+    }
+  }
+
   p {
-    margin-bottom: 1em;
-    line-height: 1.7;
+    margin: 0.65em 0 0;
+    line-height: 1.68;
 
     &:last-child {
       margin-bottom: 0;
@@ -144,10 +181,70 @@
   }
 }
 
+a.footnote[data-cite-preview] {
+  position: relative;
+  text-decoration: none;
+}
+
+a.footnote[data-cite-preview]::after {
+  position: absolute;
+  left: 50%;
+  bottom: 1.65em;
+  z-index: 20;
+  width: 18rem;
+  max-width: 70vw;
+  padding: 0.65em 0.75em;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  background: var(--global-bg-color);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+  color: var(--global-text-color);
+  content: attr(data-cite-preview);
+  font-size: 0.78rem;
+  font-weight: 400;
+  line-height: 1.45;
+  opacity: 0;
+  pointer-events: none;
+  text-align: left;
+  transform: translate(-50%, 6px);
+  transition: opacity 0.16s ease, transform 0.16s ease;
+  white-space: normal;
+}
+
+a.footnote[data-cite-preview]:hover::after,
+a.footnote[data-cite-preview]:focus::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.connectomics-reveal-footnotes {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.connectomics-reveal-footnotes.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .connectomics-essay.connectomics-reveal,
+  .connectomics-reveal-footnotes {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
 html[data-theme="dark"] {
   .connectomics-essay {
     background: linear-gradient(135deg, rgba(14, 161, 197, 0.15), rgba(14, 161, 197, 0.04));
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22);
+  }
+
+  a.footnote[data-cite-preview]::after {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.34);
   }
 }
 
