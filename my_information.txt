@@ -104,7 +104,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \section{ Publications}
 
 \begin{itemize}
-    \item \textbf{Zhenbang Zhang}$^{*}$, Hongjia Li$^{*}$, Jingtong Feng, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. (2026).
+    \item \textbf{Zhenbang Zhang}$^{\dagger}$, Hongjia Li$^{\dagger}$, Jingtong Feng, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. (2026).
     3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration.
     \textit{Bioinformatics}, 2026.
 
@@ -130,7 +130,6 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \end{itemize}
 
 {\footnotesize $^{\dagger}$ Equal contribution.}
-{\footnotesize $^{*}$ Co-first authors.}
 
 
 
