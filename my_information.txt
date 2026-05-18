@@ -104,6 +104,10 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \section{ Publications}
 
 \begin{itemize}
+    \item \textbf{Zhenbang Zhang}$^{*}$, Hongjia Li$^{*}$, Jingtong Feng, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. (2026).
+    3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration.
+    \textit{Bioinformatics}, 2026.
+
     \item \textbf{Zhenbang Zhang}$^{\dagger}$, Zihui Cui$^{\dagger}$, Haythem El-Messiry, Renmin Han, \& Zhiqiang Xu. (2026).
     Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening.
     In \textit{Proceedings of the Forty-Third International Conference on Machine Learning}.
@@ -126,6 +130,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 \end{itemize}
 
 {\footnotesize $^{\dagger}$ Equal contribution.}
+{\footnotesize $^{*}$ Co-first authors.}
 
 
 
@@ -142,9 +147,9 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu}{Abu Dhabi, UAE / Qingdao, China}
 
 \begin{itemize}
-    \item Conduct research on computational foundations for connectomics using volume electron microscopy, with a focus on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping.
-    \item Develop methods to recover high-fidelity 3D ultrastructure from anisotropic volume electron microscopy data, improving structural continuity and reconstruction quality for downstream neuron tracing and connectome analysis.
-    \item Investigate scalable neuron segmentation and tracking methods for dense connectome reconstruction and downstream neuronal circuit analysis.
+    \item Conduct research on computational foundations for \textbf{connectomics} using \textbf{volume electron microscopy}, with a focus on \textbf{3D volumetric restoration}, \textbf{isotropic reconstruction}, and \textbf{large-scale circuit mapping}.
+    \item Develop methods to recover \textbf{high-fidelity 3D ultrastructure} from \textbf{anisotropic volume electron microscopy data}, improving \textbf{structural continuity} and \textbf{reconstruction quality} for downstream \textbf{neuron tracing} and \textbf{connectome analysis}.
+    \item Investigate scalable \textbf{neuron segmentation and tracking} methods for \textbf{dense connectome reconstruction} and downstream \textbf{neuronal circuit analysis}.
 \end{itemize}
 
 \resumeSubheading
@@ -152,10 +157,10 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisor: Prof. Renmin Han}{Qingdao, China}
 
 \begin{itemize}
-    \item Conducted research on computational pipelines for serial-section volume electron microscopy, with emphasis on 3D registration, reconstruction fidelity, and scalability for connectomics datasets.
-    \item Developed a Gaussian filter-based 3D registration method for serial section electron microscopy, improving section alignment for downstream neuronal reconstruction; accepted by \textit{AAAI 2025}.
-    \item Proposed an unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration in serial section electron microscopy, improving structural consistency across sections; accepted by \textit{NeurIPS 2025}.
-    \item Developed \textit{vEMRec}, an end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB, demonstrating improved ultrastructural recovery and processing efficiency for connectome-scale analysis; accepted by \textit{Advanced Science}.
+    \item Conducted research on computational pipelines for \textbf{serial-section volume electron microscopy}, with emphasis on \textbf{3D registration}, \textbf{reconstruction fidelity}, and \textbf{scalability} for \textbf{connectomics datasets}.
+    \item Developed a \textbf{Gaussian filter-based 3D registration method} for \textbf{serial section electron microscopy}, improving \textbf{section alignment} for downstream \textbf{neuronal reconstruction}; accepted by \textbf{\textit{AAAI 2025}}.
+    \item Proposed an \textbf{unsupervised trajectory-optimization framework} based on \textbf{Neural ODEs} for \textbf{3D registration} in \textbf{serial section electron microscopy}, improving \textbf{structural consistency across sections}; accepted by \textbf{\textit{NeurIPS 2025}}.
+    \item Developed \textbf{\textit{vEMRec}}, an \textbf{end-to-end 3D reconstruction pipeline} for \textbf{volume electron microscopy}, validated on \textbf{three real-world datasets exceeding 1 TB}, demonstrating improved \textbf{ultrastructural recovery} and \textbf{processing efficiency} for \textbf{connectome-scale analysis}; accepted by \textbf{\textit{Advanced Science}}.
 \end{itemize}
 
 \resumeSubheading
@@ -163,9 +168,9 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisor: Prof. Renmin Han}{Qingdao, China}
 
 \begin{itemize}
-    \item Worked on computational stitching of ultra-high-resolution microscopy image sequences as a precursor to large-scale volume electron microscopy reconstruction.
-    \item Developed automatic stitching methods for large-scale volume electron microscopy datasets, improving continuity across sections and supporting downstream connectomics workflows.
-    \item Co-first-authored a paper on volume electron microscopy stitching published in \textit{GigaScience}.
+    \item Worked on \textbf{computational stitching} of \textbf{ultra-high-resolution microscopy image sequences} as a precursor to \textbf{large-scale volume electron microscopy reconstruction}.
+    \item Developed \textbf{automatic stitching methods} for \textbf{large-scale volume electron microscopy datasets}, improving \textbf{continuity across sections} and supporting downstream \textbf{connectomics workflows}.
+    \item Co-first-authored a paper on \textbf{volume electron microscopy stitching} published in \textbf{\textit{GigaScience}}.
 \end{itemize}
 
 

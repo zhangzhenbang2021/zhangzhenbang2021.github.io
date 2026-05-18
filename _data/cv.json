@@ -124,6 +124,13 @@
   "references": [],
   "publications": [
     {
+      "name": "3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration",
+      "publisher": "Bioinformatics",
+      "releaseDate": "2026-05",
+      "website": "",
+      "summary": "Zhenbang Zhang, Hongjia Li, Jingtong Feng, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. RegInpaint jointly addresses deformation correction and missing-information restoration for serial section electron microscopy. Accepted in May 2026."
+    },
+    {
       "name": "Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening",
       "publisher": "Proceedings of the Forty-Third International Conference on Machine Learning",
       "releaseDate": "2026-05",
