@@ -26,4 +26,34 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 
 ## Why Connectomics?
 
-I am deeply fascinated by connectomics because I see it as a true form of big science, where progress depends on large-scale data, advanced algorithms, and collaborative infrastructure. Large-scale brain mapping has often been criticized because the costs of generating these data outweigh the meaningful biological insight that can be extracted from them. However, I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. At the current level of semi-automated reconstruction and human proofreading, scaling synaptic-resolution connectomics to the whole mouse brain, let alone the human brain, remains a major challenge in time, labor, and cost. That is exactly why I am passionate about developing fully automated algorithms for connectome reconstruction and analysis. I want to help make whole-brain connectomics truly feasible, and I believe this is the right moment for AI+connectomics.
+<section class="connectomics-vision">
+  <p class="connectomics-lead">
+    The brain is the most complex biological system we know, yet neuroscience still lacks a complete structural map of how its cells form circuits. We can record activity, classify cell types, and measure molecular states, but without synapse-level connectivity, many explanations of computation, behavior, and disease remain fundamentally underconstrained.
+  </p>
+
+  <div class="connectomics-grid">
+    <div class="connectomics-panel">
+      <h3>Why It Matters for Neuroscience</h3>
+      <p>
+        Connectomics provides the missing wiring layer between cells and behavior. A connectome is not just another dataset; it is a reference map for asking mechanistic questions: which cells communicate, how local motifs implement computation, how long-range pathways coordinate behavior, and how structural changes may lead to dysfunction.
+      </p>
+    </div>
+
+    <div class="connectomics-panel">
+      <h3>Why It Matters for AI and Computing</h3>
+      <p>
+        The bottleneck is now computational. Modern volume EM can image tissue at synaptic resolution, but converting raw images into reliable circuit graphs requires restoration, 3D reconstruction, segmentation, proofreading, scalable data systems, and collaborative infrastructure. Better algorithms do not only accelerate a pipeline; they expand the scale of neuroscience that becomes possible.
+      </p>
+    </div>
+  </div>
+
+  <p class="connectomics-close">
+    This is the interface I want to work on: building automated methods that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help turn raw biological images into maps of neural computation itself.
+  </p>
+
+  <div class="connectomics-links" aria-label="Selected connectomics references">
+    <a href="https://www.nature.com/articles/s41586-024-07558-y">FlyWire connectome</a>
+    <a href="https://www.microns-explorer.org/">MICrONS Explorer</a>
+    <a href="https://www.nature.com/articles/s41592-024-02426-z">CAVE infrastructure</a>
+  </div>
+</section>

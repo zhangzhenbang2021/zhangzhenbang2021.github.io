@@ -107,6 +107,93 @@
   }
 }
 
+.connectomics-vision {
+  margin: 1.5em 0 0;
+  padding-top: 1em;
+  border-top: 3px solid var(--global-base-color);
+
+  .connectomics-lead {
+    margin-bottom: 1.2em;
+    padding: 1em 1.1em;
+    border-left: 4px solid var(--global-base-color);
+    background: rgba(47, 127, 147, 0.08);
+    color: var(--global-text-color);
+    font-size: 1.05em;
+    line-height: 1.65;
+  }
+
+  .connectomics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1em;
+    margin: 1.2em 0;
+
+    @include breakpoint(max-width $small) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .connectomics-panel {
+    padding: 1em 1.1em;
+    border: 1px solid var(--global-border-color);
+    border-top: 3px solid #2f7f93;
+    background: var(--global-bg-color);
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      color: var(--global-base-color);
+      font-size: $type-size-5;
+    }
+
+    p {
+      margin-bottom: 0;
+      line-height: 1.6;
+    }
+  }
+
+  .connectomics-close {
+    margin: 1.2em 0;
+    font-weight: 600;
+    line-height: 1.65;
+  }
+
+  .connectomics-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 0.75em;
+
+    a {
+      display: inline-block;
+      padding: 0.35em 0.7em;
+      border: 1px solid var(--global-dark-border-color);
+      color: var(--global-link-color);
+      font-family: $sans-serif;
+      font-size: $type-size-6;
+      text-decoration: none;
+
+      &:hover {
+        border-color: var(--global-base-color);
+        color: var(--global-link-color-hover);
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+html[data-theme="dark"] {
+  .connectomics-vision {
+    .connectomics-lead {
+      background: rgba(14, 161, 197, 0.14);
+    }
+
+    .connectomics-panel {
+      border-top-color: #0ea1c5;
+    }
+  }
+}
+
 .page__hero {
   position: relative;
   margin-bottom: 2em;
