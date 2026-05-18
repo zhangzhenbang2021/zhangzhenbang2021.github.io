@@ -108,25 +108,48 @@
 }
 
 .connectomics-vision {
+  --connectomics-teal: #2f7f93;
+  --connectomics-coral: #c96f45;
+  --connectomics-gold: #b08a2e;
+  --connectomics-blue: #356fa8;
+
   margin: 1.5em 0 0;
-  padding-top: 1em;
-  border-top: 3px solid var(--global-base-color);
+  padding-top: 0.75em;
+
+  .connectomics-hero {
+    position: relative;
+    margin-bottom: 1.1em;
+    padding: 1.2em 1.3em;
+    border: 1px solid var(--global-border-color);
+    border-left: 5px solid var(--connectomics-teal);
+    border-radius: 6px;
+    background:
+      linear-gradient(135deg, rgba(47, 127, 147, 0.12), rgba(201, 111, 69, 0.07) 48%, rgba(176, 138, 46, 0.06));
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+  }
+
+  .connectomics-kicker {
+    margin-bottom: 0.45em;
+    color: var(--connectomics-coral);
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
 
   .connectomics-lead {
-    margin-bottom: 1.2em;
-    padding: 1em 1.1em;
-    border-left: 4px solid var(--global-base-color);
-    background: rgba(47, 127, 147, 0.08);
+    margin-bottom: 0;
     color: var(--global-text-color);
-    font-size: 1.05em;
-    line-height: 1.65;
+    font-size: 1.12em;
+    line-height: 1.68;
   }
 
   .connectomics-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1em;
-    margin: 1.2em 0;
+    margin: 1em 0 1.2em;
 
     @include breakpoint(max-width $small) {
       grid-template-columns: 1fr;
@@ -134,10 +157,45 @@
   }
 
   .connectomics-panel {
+    position: relative;
+    overflow: hidden;
     padding: 1em 1.1em;
     border: 1px solid var(--global-border-color);
-    border-top: 3px solid #2f7f93;
+    border-radius: 6px;
     background: var(--global-bg-color);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--connectomics-teal);
+    }
+
+    &:nth-child(2)::before {
+      background: var(--connectomics-coral);
+    }
+
+    &:nth-child(3)::before {
+      background: var(--connectomics-blue);
+    }
+
+    &--wide {
+      grid-column: 1 / -1;
+    }
+
+    .connectomics-index {
+      position: absolute;
+      top: 0.65em;
+      right: 0.8em;
+      color: var(--global-border-color);
+      font-family: $sans-serif;
+      font-size: $type-size-4;
+      font-weight: 700;
+    }
 
     h3 {
       margin-top: 0;
@@ -153,30 +211,48 @@
   }
 
   .connectomics-close {
-    margin: 1.2em 0;
+    margin: 1.15em 0 1em;
+    padding-left: 0.9em;
+    border-left: 3px solid var(--connectomics-gold);
     font-weight: 600;
     line-height: 1.65;
   }
 
-  .connectomics-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5em;
-    margin-top: 0.75em;
+  .connectomics-cite {
+    margin-left: 0.12em;
+    font-family: $sans-serif;
+    font-size: 0.72em;
+    font-weight: 700;
 
     a {
-      display: inline-block;
-      padding: 0.35em 0.7em;
-      border: 1px solid var(--global-dark-border-color);
       color: var(--global-link-color);
-      font-family: $sans-serif;
-      font-size: $type-size-6;
       text-decoration: none;
 
       &:hover {
-        border-color: var(--global-base-color);
         color: var(--global-link-color-hover);
-        text-decoration: none;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .connectomics-references {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55em 1.4em;
+    margin: 0.5em 0 0;
+    padding: 0.75em 0 0;
+    border-top: 1px solid var(--global-border-color);
+    color: var(--global-text-color-light);
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    list-style-position: inside;
+
+    a {
+      color: var(--global-link-color);
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--global-link-color-hover);
       }
     }
   }
@@ -184,12 +260,14 @@
 
 html[data-theme="dark"] {
   .connectomics-vision {
-    .connectomics-lead {
-      background: rgba(14, 161, 197, 0.14);
+    .connectomics-hero,
+    .connectomics-panel {
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.22);
     }
 
-    .connectomics-panel {
-      border-top-color: #0ea1c5;
+    .connectomics-hero {
+      background:
+        linear-gradient(135deg, rgba(14, 161, 197, 0.2), rgba(201, 111, 69, 0.1) 48%, rgba(176, 138, 46, 0.08));
     }
   }
 }

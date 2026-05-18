@@ -27,33 +27,47 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 ## Why Connectomics?
 
 <section class="connectomics-vision">
-  <p class="connectomics-lead">
-    The brain is the most complex biological system we know, yet neuroscience still lacks a complete structural map of how its cells form circuits. We can record activity, classify cell types, and measure molecular states, but without synapse-level connectivity, many explanations of computation, behavior, and disease remain fundamentally underconstrained.
-  </p>
+  <div class="connectomics-hero">
+    <p class="connectomics-kicker">Why this problem matters</p>
+    <p class="connectomics-lead">
+      The brain is not only a collection of cells; it is a physical network of circuits. Without synapse-level wiring, explanations of computation, behavior, and disease remain structurally underconstrained.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">1</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">2</a></sup>
+    </p>
+  </div>
 
   <div class="connectomics-grid">
-    <div class="connectomics-panel">
-      <h3>Why It Matters for Neuroscience</h3>
+    <article class="connectomics-panel">
+      <span class="connectomics-index">01</span>
+      <h3>Neuroscience needs circuit-level ground truth</h3>
       <p>
-        Connectomics provides the missing wiring layer between cells and behavior. A connectome is not just another dataset; it is a reference map for asking mechanistic questions: which cells communicate, how local motifs implement computation, how long-range pathways coordinate behavior, and how structural changes may lead to dysfunction.
+        Cell types, activity, and molecular states become more explanatory when anchored to who connects to whom. A connectome can turn scattered observations into testable circuit mechanisms: information flow, local motifs, long-range pathways, and structural changes in disease.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">1</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">2</a></sup>
       </p>
-    </div>
+    </article>
 
-    <div class="connectomics-panel">
-      <h3>Why It Matters for AI and Computing</h3>
+    <article class="connectomics-panel">
+      <span class="connectomics-index">02</span>
+      <h3>The barrier is computational scale</h3>
       <p>
-        The bottleneck is now computational. Modern volume EM can image tissue at synaptic resolution, but converting raw images into reliable circuit graphs requires restoration, 3D reconstruction, segmentation, proofreading, scalable data systems, and collaborative infrastructure. Better algorithms do not only accelerate a pipeline; they expand the scale of neuroscience that becomes possible.
+        Modern volume EM can image neural tissue at extraordinary resolution, but raw images are not yet science. They must be restored, registered, segmented, proofread, annotated, versioned, and queried before they become reliable biological graphs.<sup class="connectomics-cite"><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">3</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup>
       </p>
-    </div>
+    </article>
+
+    <article class="connectomics-panel connectomics-panel--wide">
+      <span class="connectomics-index">03</span>
+      <h3>AI can change what neuroscience can ask</h3>
+      <p>
+        Better algorithms do not merely make reconstruction faster. They shift the boundary of feasible neuroscience by reducing manual proofreading, improving data reliability, and making larger, more complete connectomic maps practical for collaborative analysis.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup><sup class="connectomics-cite"><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">3</a></sup>
+      </p>
+    </article>
   </div>
 
   <p class="connectomics-close">
-    This is the interface I want to work on: building automated methods that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help turn raw biological images into maps of neural computation itself.
+    This is the interface I want to work on: building automated methods that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help turn raw biological images into maps of neural computation itself.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup>
   </p>
 
-  <div class="connectomics-links" aria-label="Selected connectomics references">
-    <a href="https://www.nature.com/articles/s41586-024-07558-y">FlyWire connectome</a>
-    <a href="https://www.microns-explorer.org/">MICrONS Explorer</a>
-    <a href="https://www.nature.com/articles/s41592-024-02426-z">CAVE infrastructure</a>
-  </div>
+  <ol class="connectomics-references" aria-label="Selected connectomics references">
+    <li><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">Biologically annotated connectomes</a></li>
+    <li><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">FlyWire adult brain connectome</a></li>
+    <li><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">MICrONS functional connectomics</a></li>
+    <li><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">CAVE infrastructure</a></li>
+  </ol>
 </section>
