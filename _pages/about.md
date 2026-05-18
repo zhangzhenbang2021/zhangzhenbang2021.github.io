@@ -24,50 +24,25 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 - **Dec. 2024** — Paper *"A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy"* accepted by ***AAAI 2025*** (First author)
 - **Oct. 2024** — Paper *"vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy"* published in ***GigaScience*** (Co-first, 3rd)
 
-## Why Connectomics?
+## Why connectomics?
 
-<section class="connectomics-vision">
-  <div class="connectomics-hero">
-    <p class="connectomics-kicker">Why this problem matters</p>
-    <p class="connectomics-lead">
-      The brain is not only a collection of cells; it is a physical network of circuits. Without synapse-level wiring, explanations of computation, behavior, and disease remain structurally underconstrained.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">1</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">2</a></sup>
-    </p>
-  </div>
+<div class="connectomics-essay" markdown="1">
 
-  <div class="connectomics-grid">
-    <article class="connectomics-panel">
-      <span class="connectomics-index">01</span>
-      <h3>Neuroscience needs circuit-level ground truth</h3>
-      <p>
-        Cell types, activity, and molecular states become more explanatory when anchored to who connects to whom. A connectome can turn scattered observations into testable circuit mechanisms: information flow, local motifs, long-range pathways, and structural changes in disease.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">1</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">2</a></sup>
-      </p>
-    </article>
+Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1][^2] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^2][^3] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function is constrained by its physical wiring.[^3][^4] Advances in high-throughput volume electron microscopy and deep learning-based segmentation have made synapse-level circuit mapping increasingly feasible, while also revealing major remaining challenges in reconstruction, annotation, and interpretation.[^1][^5]
 
-    <article class="connectomics-panel">
-      <span class="connectomics-index">02</span>
-      <h3>The barrier is computational scale</h3>
-      <p>
-        Modern volume EM can image neural tissue at extraordinary resolution, but raw images are not yet science. They must be restored, registered, segmented, proofread, annotated, versioned, and queried before they become reliable biological graphs.<sup class="connectomics-cite"><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">3</a></sup><sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup>
-      </p>
-    </article>
+For neuroscience, connectomics matters because it makes explanations of brain function structurally grounded.[^2][^3] Neural activity, cell types, gene expression, and behavior become more interpretable when anchored to the question of **who connects to whom**.[^4][^6] A synapse-level connectome can turn biological observations into testable circuit mechanisms: how information flows through a network, which motifs support local computation, how different cell types interact, and how structural changes may contribute to disease.[^3][^6][^7] In this sense, connectomics is not simply about producing detailed maps; it is about providing circuit-level ground truth for understanding how neural computation is physically implemented.[^2][^8]
 
-    <article class="connectomics-panel connectomics-panel--wide">
-      <span class="connectomics-index">03</span>
-      <h3>AI can change what neuroscience can ask</h3>
-      <p>
-        Better algorithms do not merely make reconstruction faster. They shift the boundary of feasible neuroscience by reducing manual proofreading, improving data reliability, and making larger, more complete connectomic maps practical for collaborative analysis.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup><sup class="connectomics-cite"><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">3</a></sup>
-      </p>
-    </article>
-  </div>
+For AI and computing, connectomics sits at the intersection of large-scale machine learning, computer vision, distributed systems, databases, and collaborative scientific infrastructure.[^5][^9] Nanometer-resolution imaging can generate petascale data, but turning raw images into reliable circuit maps requires many computational areas to work together: **computer vision** for dense reconstruction, **self-supervised representation learning** for data-efficient annotation, **distributed inference** for processing massive volumes, **human-in-the-loop proofreading** for correcting biological graphs, **scalable storage** for managing image and graph data, **versioned databases** for tracking evolving reconstructions, **fast query systems** for scientific analysis, and **collaborative infrastructure** for shared work across teams.[^5][^9][^10] This is the interface I want to work on: building AI methods and computational systems that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help transform raw biological images into maps of neural computation.[^5][^9]
 
-  <p class="connectomics-close">
-    This is the interface I want to work on: building automated methods that reduce reconstruction and proofreading costs, improve the reliability of connectomic data, and help turn raw biological images into maps of neural computation itself.<sup class="connectomics-cite"><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">4</a></sup>
-  </p>
+</div>
 
-  <ol class="connectomics-references" aria-label="Selected connectomics references">
-    <li><a href="https://www.nature.com/articles/s41583-023-00752-3" target="_blank" rel="noopener noreferrer">Biologically annotated connectomes</a></li>
-    <li><a href="https://www.nature.com/articles/s41586-024-07558-y" target="_blank" rel="noopener noreferrer">FlyWire adult brain connectome</a></li>
-    <li><a href="https://www.microns-explorer.org/" target="_blank" rel="noopener noreferrer">MICrONS functional connectomics</a></li>
-    <li><a href="https://www.nature.com/articles/s41592-024-02426-z" target="_blank" rel="noopener noreferrer">CAVE infrastructure</a></li>
-  </ol>
-</section>
+[^1]: Bock, D. D. et al. "Synaptic connectomics: status and prospects." *Nature Reviews Neuroscience* (2025). https://www.nature.com/articles/s41583-025-00957-8
+[^2]: Helmstaedter, M. "Synaptic-resolution connectomics: towards large brains and behaviour." *Nature Reviews Neuroscience* (2025). https://www.nature.com/articles/s41583-025-00998-z
+[^3]: Seguin, C., Sporns, O. et al. "Brain network communication: concepts, models and applications." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00718-5
+[^4]: Markello, R. D. et al. "Towards a biologically annotated brain connectome." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00752-3
+[^5]: Dorkenwald, S. et al. "Multi-layered maps of neuropil with segmentation-guided contrastive learning." *Nature Methods* (2023). https://www.nature.com/articles/s41592-023-02059-8
+[^6]: Fornito, A., Zalesky, A. & Breakspear, M. "The connectomics of brain disorders." *Nature Reviews Neuroscience* (2015). https://www.nature.com/articles/nrn3901
+[^7]: Sporns, O. & Kötter, R. "Motifs in brain networks." *PLoS Biology* (2004). https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020369
+[^8]: Abbott, L. F. et al. "The Mind of a Mouse." *Cell* (2020). https://www.cell.com/cell/fulltext/S0092-8674(20)30789-X
+[^9]: Dorkenwald, S. et al. "CAVE: Connectome Annotation Versioning Engine." *Nature Methods* (2024). https://www.nature.com/articles/s41592-024-02426-z
+[^10]: Plaza, S. M. "Collaborative large-scale neuroscience." *Nature Methods* (2014). https://www.nature.com/articles/nmeth.3044
