@@ -32,11 +32,10 @@
       "website": "https://www.mbzuai.ac.ae",
       "startDate": "2025-10",
       "endDate": "Present",
-      "summary": "Research on computational foundations for connectomics using volume electron microscopy, focusing on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping.",
+      "summary": "Research on isotropic reconstruction, image restoration, and automatic proofreading for volume EM connectomics.",
       "highlights": [
-        "Conduct research on computational foundations for connectomics using volume electron microscopy",
-        "Focus on 3D volumetric restoration, isotropic reconstruction, and large-scale circuit mapping",
-        "Investigate scalable neuron segmentation and tracking methods for dense connectome reconstruction"
+        "Develop methods for isotropic reconstruction, image restoration, and automatic proofreading in volume EM connectomics",
+        "Work on scalable connectome reconstruction systems that reduce manual proofreading burden and improve analysis-ready dataset quality, resulting in first-author papers at ICML 2026 and Bioinformatics"
       ]
     },
     {
@@ -45,11 +44,12 @@
       "website": "https://www.math.qda.edu.cn",
       "startDate": "2023-07",
       "endDate": "2025-10",
-      "summary": "Research on computational pipelines for serial-section volume electron microscopy, with emphasis on 3D registration, reconstruction fidelity, and scalability for connectomics datasets.",
+      "summary": "Research on computational pipelines for serial-section volume electron microscopy, focusing on 3D registration accuracy, ultrastructural fidelity, and scalability.",
       "highlights": [
-        "Developed Gaussian filter-based 3D registration method for serial section electron microscopy (AAAI 2025)",
-        "Proposed unsupervised trajectory-optimization framework based on Neural ODEs (NeurIPS 2025)",
-        "Developed vEMRec end-to-end 3D reconstruction pipeline validated on 1TB+ real-world datasets (Advanced Science 2026)"
+        "Built computational pipelines for serial-section volume electron microscopy",
+        "Developed a Gaussian filter-based 3D registration method for serial-section EM alignment (AAAI 2025)",
+        "Proposed a Neural ODE-based trajectory-optimization framework for 3D registration (NeurIPS 2025)",
+        "Developed vEMRec, an end-to-end 3D alignment pipeline validated on six real-world datasets exceeding 1 TB (Advanced Science)"
       ]
     },
     {
@@ -58,11 +58,10 @@
       "website": "https://www.math.qda.edu.cn",
       "startDate": "2022-06",
       "endDate": "2023-07",
-      "summary": "Worked on computational stitching of ultra-high-resolution microscopy image sequences for large-scale volume electron microscopy reconstruction.",
+      "summary": "Worked on automatic stitching methods for ultra-high-resolution volume EM image sequences.",
       "highlights": [
-        "Developed automatic stitching methods for large-scale volume electron microscopy datasets",
-        "Improved continuity across sections for downstream connectomics workflows",
-        "Co-first-authored paper on volume electron microscopy stitching (GigaScience 2024)"
+        "Developed automatic stitching methods supporting large-scale 3D reconstruction and downstream connectomics workflows",
+        "Co-first-authored vEMstitch, a fully automatic stitching method for volume EM (GigaScience 2024)"
       ]
     }
   ],

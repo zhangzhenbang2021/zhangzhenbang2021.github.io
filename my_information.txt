@@ -146,9 +146,8 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu}{Abu Dhabi, UAE / Qingdao, China}
 
 \begin{itemize}
-    \item Conduct research on computational foundations for \textbf{connectomics} using \textbf{volume electron microscopy}, with a focus on \textbf{3D volumetric restoration}, \textbf{isotropic reconstruction}, and \textbf{large-scale circuit mapping}.
-    \item Develop methods to recover \textbf{high-fidelity 3D ultrastructure} from \textbf{anisotropic volume electron microscopy data}, improving \textbf{structural continuity} and \textbf{reconstruction quality} for downstream \textbf{neuron tracing} and \textbf{connectome analysis}.
-    \item Investigate scalable \textbf{neuron segmentation and tracking} methods for \textbf{dense connectome reconstruction} and downstream \textbf{neuronal circuit analysis}.
+    \item Develop methods for isotropic reconstruction, image restoration, and automatic proofreading in volume EM connectomics, improving 3D volume quality and reconstruction reliability for synaptic-resolution circuit mapping.
+    \item Work on scalable connectome reconstruction systems that reduce manual proofreading burden and improve analysis-ready dataset quality, resulting in \textbf{first-author papers at ICML 2026 and Bioinformatics}.
 \end{itemize}
 
 \resumeSubheading
@@ -156,10 +155,10 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisor: Prof. Renmin Han}{Qingdao, China}
 
 \begin{itemize}
-    \item Conducted research on computational pipelines for \textbf{serial-section volume electron microscopy}, with emphasis on \textbf{3D registration}, \textbf{reconstruction fidelity}, and \textbf{scalability} for \textbf{connectomics datasets}.
-    \item Developed a \textbf{Gaussian filter-based 3D registration method} for \textbf{serial section electron microscopy}, improving \textbf{section alignment} for downstream \textbf{neuronal reconstruction}; accepted by \textbf{\textit{AAAI 2025}}.
-    \item Proposed an \textbf{unsupervised trajectory-optimization framework} based on \textbf{Neural ODEs} for \textbf{3D registration} in \textbf{serial section electron microscopy}, improving \textbf{structural consistency across sections}; accepted by \textbf{\textit{NeurIPS 2025}}.
-    \item Developed \textbf{\textit{vEMRec}}, an \textbf{end-to-end 3D reconstruction pipeline} for \textbf{volume electron microscopy}, validated on \textbf{three real-world datasets exceeding 1 TB}, demonstrating improved \textbf{ultrastructural recovery} and \textbf{processing efficiency} for \textbf{connectome-scale analysis}; accepted by \textbf{\textit{Advanced Science}}.
+    \item Built computational pipelines for serial-section volume electron microscopy, focusing on 3D registration accuracy, ultrastructural fidelity, and scalability for connectomics datasets.
+    \item Developed a Gaussian filter-based 3D registration method for serial-section EM alignment, achieving more than 20\% accuracy improvement; first-author paper accepted to \textbf{\textit{AAAI 2025}}.
+    \item Proposed a Neural ODE-based trajectory-optimization framework for 3D registration, improving cross-section structural consistency; first-author paper accepted to \textbf{\textit{NeurIPS 2025}}.
+    \item Developed \textbf{\textit{vEMRec}}, an end-to-end 3D alignment pipeline validated on six real-world datasets exceeding 1 TB; first-author paper accepted to \textbf{\textit{Advanced Science}}.
 \end{itemize}
 
 \resumeSubheading
@@ -167,9 +166,8 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Advisor: Prof. Renmin Han}{Qingdao, China}
 
 \begin{itemize}
-    \item Worked on \textbf{computational stitching} of \textbf{ultra-high-resolution microscopy image sequences} as a precursor to \textbf{large-scale volume electron microscopy reconstruction}.
-    \item Developed \textbf{automatic stitching methods} for \textbf{large-scale volume electron microscopy datasets}, improving \textbf{continuity across sections} and supporting downstream \textbf{connectomics workflows}.
-    \item Co-first-authored a paper on \textbf{volume electron microscopy stitching} published in \textbf{\textit{GigaScience}}.
+    \item Developed automatic stitching methods for ultra-high-resolution volume EM image sequences, supporting large-scale 3D reconstruction and downstream connectomics workflows.
+    \item Co-first-authored \textbf{\textit{vEMstitch}}, a fully automatic stitching method for volume EM, published in \textbf{\textit{GigaScience 2024}}.
 \end{itemize}
 
 

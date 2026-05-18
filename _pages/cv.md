@@ -27,20 +27,20 @@ Research Experience
 ======
 * **Research Assistant**, MBZUAI, Advisors: Prof. Zhiqiang Xu, Oct. 2025 -- Present
   * Location: Abu Dhabi, UAE
-  * Lead research on **isotropic reconstruction** and **image restoration** for **volume EM connectomics**, developing methods to improve **z-axis resolution**, recover missing or degraded **ultrastructure**, and enhance **3D volume quality** for downstream **synaptic-resolution circuit reconstruction**.
-  * Investigate **automatic proofreading** methods for **large-scale connectome reconstruction**, aiming to identify and correct **segmentation errors**, reduce **manual proofreading** burden, and improve the reliability of **analysis-ready connectomics datasets**.
+  * Develop methods for isotropic reconstruction, image restoration, and automatic proofreading in volume EM connectomics, improving 3D volume quality and reconstruction reliability for synaptic-resolution circuit mapping.
+  * Work on scalable connectome reconstruction systems that reduce manual proofreading burden and improve analysis-ready dataset quality, resulting in **first-author papers at ICML 2026 and Bioinformatics**.
 
 * **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Advisor: Prof. Renmin Han, Jul. 2023 -- Oct. 2025
   * Location: Qingdao, China
-  * Designed computational pipelines for **serial-section volume electron microscopy** with emphasis on **3D registration accuracy**, **ultrastructural fidelity**, and **scalability** for **connectomics datasets**.
-  * Developed a **Gaussian filter-based 3D registration method** that departed from conventional registration paradigms, introducing a new perspective for **serial-section electron microscopy alignment** and achieving **more than 20% improvement in accuracy**; first-author paper accepted to **AAAI 2025**.
-  * Proposed an **unsupervised trajectory-optimization framework** based on **Neural ODEs**, extending and consolidating our earlier work while establishing a new registration paradigm that improves **cross-section structural consistency** in **serial-section electron microscopy**; first-author paper accepted to **NeurIPS 2025**.
-  * Developed ***vEMRec***, an **end-to-end 3D alignment pipeline** for **volume electron microscopy**, validated on **six real-world datasets exceeding 1 TB**, demonstrating strong applicability in large-scale realistic settings through improved **ultrastructural recovery** and **processing efficiency** for **connectome-scale analysis**; first-author paper accepted to **Advanced Science**.
+  * Built computational pipelines for serial-section volume electron microscopy, focusing on 3D registration accuracy, ultrastructural fidelity, and scalability for connectomics datasets.
+  * Developed a Gaussian filter-based 3D registration method for serial-section EM alignment, achieving more than 20% accuracy improvement; first-author paper accepted to **AAAI 2025**.
+  * Proposed a Neural ODE-based trajectory-optimization framework for 3D registration, improving cross-section structural consistency; first-author paper accepted to **NeurIPS 2025**.
+  * Developed ***vEMRec***, an end-to-end 3D alignment pipeline validated on six real-world datasets exceeding 1 TB; first-author paper accepted to **Advanced Science**.
 
 * **Research Intern**, Mathematics and Interdisciplinary Science Center, Shandong University, Advisor: Prof. Renmin Han, Jun. 2022 -- Jul. 2023
   * Location: Qingdao, China
-  * Developed **automatic stitching methods** for **ultra-high-resolution volume electron microscopy image sequences**, supporting **large-scale 3D reconstruction** and downstream **connectomics workflows**.
-  * Co-first-authored ***vEMstitch***, a **fully automatic stitching method** for **volume electron microscopy**, published in **GigaScience 2024**.
+  * Developed automatic stitching methods for ultra-high-resolution volume EM image sequences, supporting large-scale 3D reconstruction and downstream connectomics workflows.
+  * Co-first-authored ***vEMstitch***, a fully automatic stitching method for volume EM, published in **GigaScience 2024**.
 
 Teaching Experience
 ======
