@@ -52,15 +52,15 @@ For AI and computing, connectomics sits at the intersection of large-scale machi
 
 </div>
 
-[^1]: Bock, D. D. "Synaptic connectomics: status and prospects." *Nature Reviews Neuroscience* (2025). https://www.nature.com/articles/s41583-025-00957-8
-[^2]: Helmstaedter, M. "Synaptic-resolution connectomics: towards large brains and connectomic screening." *Nature Reviews Neuroscience* (2026). https://www.nature.com/articles/s41583-025-00998-z
-[^3]: Seguin, C., Sporns, O. & Zalesky, A. "Brain network communication: concepts, models and applications." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00718-5
-[^4]: Bazinet, V., Hansen, J. Y. & Misic, B. "Towards a biologically annotated brain connectome." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00752-3
-[^5]: Fornito, A., Zalesky, A. & Breakspear, M. "The connectomics of brain disorders." *Nature Reviews Neuroscience* (2015). https://www.nature.com/articles/nrn3901
-[^6]: The MICrONS Consortium. "Functional connectomics spanning multiple areas of mouse visual cortex." *Nature* (2025). https://www.nature.com/articles/s41586-025-08790-w
-[^7]: Ding, Z. et al. "Functional connectomics reveals general wiring rule in mouse visual cortex." *Nature* (2025). https://www.nature.com/articles/s41586-025-08840-3
-[^8]: Seung, H. S. "Predicting visual function by interpreting a neuronal wiring diagram." *Nature* (2024). https://www.nature.com/articles/s41586-024-07953-5
-[^9]: Lichtman, J. W., Pfister, H. & Shavit, N. "The big data challenges of connectomics." *Nature Neuroscience* (2014). https://www.nature.com/articles/nn.3837
-[^10]: Dorkenwald, S. et al. "Automated synaptic connectivity inference for volume electron microscopy." *Nature Methods* (2017). https://www.nature.com/articles/nmeth.4206
-[^11]: Meirovitch, Y. et al. "SmartEM: machine learning-guided electron microscopy." *Nature Methods* (2026). https://www.nature.com/articles/s41592-025-02929-3
-[^12]: Dorkenwald, S. et al. "CAVE: Connectome Annotation Versioning Engine." *Nature Methods* (2025). https://www.nature.com/articles/s41592-024-02426-z
+[^1]: Bock, D. D. ["Synaptic connectomics: status and prospects."](https://www.nature.com/articles/s41583-025-00957-8) *Nature Reviews Neuroscience* (2025).
+[^2]: Helmstaedter, M. ["Synaptic-resolution connectomics: towards large brains and connectomic screening."](https://www.nature.com/articles/s41583-025-00998-z) *Nature Reviews Neuroscience* (2026).
+[^3]: Seguin, C., Sporns, O. & Zalesky, A. ["Brain network communication: concepts, models and applications."](https://www.nature.com/articles/s41583-023-00718-5) *Nature Reviews Neuroscience* (2023).
+[^4]: Bazinet, V., Hansen, J. Y. & Misic, B. ["Towards a biologically annotated brain connectome."](https://www.nature.com/articles/s41583-023-00752-3) *Nature Reviews Neuroscience* (2023).
+[^5]: Fornito, A., Zalesky, A. & Breakspear, M. ["The connectomics of brain disorders."](https://www.nature.com/articles/nrn3901) *Nature Reviews Neuroscience* (2015).
+[^6]: The MICrONS Consortium. ["Functional connectomics spanning multiple areas of mouse visual cortex."](https://www.nature.com/articles/s41586-025-08790-w) *Nature* (2025).
+[^7]: Ding, Z. et al. ["Functional connectomics reveals general wiring rule in mouse visual cortex."](https://www.nature.com/articles/s41586-025-08840-3) *Nature* (2025).
+[^8]: Seung, H. S. ["Predicting visual function by interpreting a neuronal wiring diagram."](https://www.nature.com/articles/s41586-024-07953-5) *Nature* (2024).
+[^9]: Lichtman, J. W., Pfister, H. & Shavit, N. ["The big data challenges of connectomics."](https://www.nature.com/articles/nn.3837) *Nature Neuroscience* (2014).
+[^10]: Dorkenwald, S. et al. ["Automated synaptic connectivity inference for volume electron microscopy."](https://www.nature.com/articles/nmeth.4206) *Nature Methods* (2017).
+[^11]: Meirovitch, Y. et al. ["SmartEM: machine learning-guided electron microscopy."](https://www.nature.com/articles/s41592-025-02929-3) *Nature Methods* (2026).
+[^12]: Dorkenwald, S. et al. ["CAVE: Connectome Annotation Versioning Engine."](https://www.nature.com/articles/s41592-024-02426-z) *Nature Methods* (2025).
