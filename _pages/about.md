@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "About Me"
+title: "Zhenbang Zhang"
+description: "Zhenbang Zhang (Zhang Zhenbang, 张振邦) is an M.Sc. student in Machine Learning at MBZUAI working on computational connectomics and volume electron microscopy."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), advised by Prof. [Zhiqiang Xu](https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en). My research lies at the intersection of connectomics, computational neuroscience, and machine learning. I am currently working on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
+I am Zhenbang Zhang (Zhang Zhenbang, 张振邦), a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), advised by Prof. [Zhiqiang Xu](https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en). My research lies at the intersection of connectomics, computational neuroscience, and machine learning. I am currently working on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
 
 ## Research Interests
 

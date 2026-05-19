@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zhenbang Zhang"
 title_separator          : "-"
 name                     : &name "Zhenbang Zhang"
-description              : &description "Zhenbang Zhang's academic portfolio"
+description              : &description "Zhenbang Zhang (Zhang Zhenbang, 张振邦) - academic portfolio in machine learning, computational connectomics, and volume electron microscopy"
 url                      : https://zhangzhenbang2021.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhangzhenbang2021/zhangzhenbang2021.github.io"
@@ -128,7 +128,7 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "_FRbmBh1qgj0xbacWH8RLRqa1YSfzKVtjUHSVgWbRCk"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -146,9 +146,15 @@ og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Zhenbang Zhang" # If the user or organization name differs from the site's name
+  alternate_names:
+    - "Zhang Zhenbang"
+    - "张振邦"
   links: # An array of links to social media profiles
+    - "https://zhangzhenbang2021.github.io"
+    - "https://github.com/zhangzhenbang2021"
+    - "https://scholar.google.com/citations?user=zUD-nWMAAAAJ&hl=zh-CN"
 
 
 # Analytics
