@@ -32,7 +32,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 <details class="connectomics-section" open markdown="1">
 <summary>Synapse-level maps of neural circuits</summary>
 
-Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1] Synaptic-resolution connectomics is also being developed toward larger brains and connectomic screening.[^2] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^3] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function can be interpreted through biologically annotated structural graphs.[^4]
+Connectomics seeks to reconstruct the brain as a physical communication network at synaptic resolution.[^1] Recent advances are extending synaptic-resolution connectomics to larger nervous systems and enabling connectome-scale screening.[^2] Rather than viewing neurons as isolated cells or reducing neural systems to activity traces, connectomics examines how individual neurons are wired together, which synapses mediate information flow between them, and how local circuits are embedded within broader brain-wide networks.[^3] From this perspective, the brain can be understood not merely as a collection of cells, molecular states, or activity patterns, but as a densely interconnected circuit whose function can be interpreted through biologically annotated structural graphs.[^4]
 
 </details>
 
