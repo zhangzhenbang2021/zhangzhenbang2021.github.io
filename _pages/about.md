@@ -32,7 +32,7 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 <details class="connectomics-section" open markdown="1">
 <summary>Synapse-level maps of neural circuits</summary>
 
-Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1] Recent reviews now frame synaptic-resolution connectomics as a route to larger brains and connectomic screening.[^2] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^3] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function can be interpreted through biologically annotated structural graphs.[^4] Advances in high-throughput volume electron microscopy, automated reconstruction, and segmentation-guided representation learning have made synapse-level circuit mapping increasingly feasible, while also revealing major remaining challenges in reconstruction, annotation, and interpretation. Recent large-scale studies show that dense connectomes can become shared, analyzable resources rather than static images.[^9], [^10], [^11]
+Connectomics aims to reconstruct the brain as a physical communication network at synaptic resolution.[^1] Recent reviews now frame synaptic-resolution connectomics as a route to larger brains and connectomic screening.[^2] Instead of treating neurons only as isolated cells or activity traces, it asks how individual neurons are wired together, which synapses transmit information between them, and how local circuits are embedded within larger brain-wide networks.[^3] In this view, the brain is not only a collection of cells, molecular states, or activity patterns, but a densely connected circuit whose function can be interpreted through biologically annotated structural graphs.[^4]
 
 </details>
 
@@ -57,9 +57,6 @@ For AI and computing, connectomics sits at the intersection of large-scale machi
 [^3]: Seguin, C., Sporns, O. & Zalesky, A. "Brain network communication: concepts, models and applications." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00718-5
 [^4]: Bazinet, V., Hansen, J. Y. & Misic, B. "Towards a biologically annotated brain connectome." *Nature Reviews Neuroscience* (2023). https://www.nature.com/articles/s41583-023-00752-3
 [^5]: Fornito, A., Zalesky, A. & Breakspear, M. "The connectomics of brain disorders." *Nature Reviews Neuroscience* (2015). https://www.nature.com/articles/nrn3901
-[^9]: Dorkenwald, S. et al. "Neuronal wiring diagram of an adult brain." *Nature* (2024). https://www.nature.com/articles/s41586-024-07558-y
-[^10]: Schlegel, P. et al. "Whole-brain annotation and multi-connectome cell typing of Drosophila." *Nature* (2024). https://www.nature.com/articles/s41586-024-07686-5
-[^11]: Lin, A. et al. "Network statistics of the whole-brain connectome of Drosophila." *Nature* (2024). https://www.nature.com/articles/s41586-024-07968-y
 [^12]: The MICrONS Consortium. "Functional connectomics spanning multiple areas of mouse visual cortex." *Nature* (2025). https://www.nature.com/articles/s41586-025-08790-w
 [^13]: Ding, Z. et al. "Functional connectomics reveals general wiring rule in mouse visual cortex." *Nature* (2025). https://www.nature.com/articles/s41586-025-08840-3
 [^14]: Seung, H. S. "Predicting visual function by interpreting a neuronal wiring diagram." *Nature* (2024). https://www.nature.com/articles/s41586-024-07953-5
