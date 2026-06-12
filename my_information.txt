@@ -90,15 +90,15 @@
 {Shandong University}{Sept 2021 -- June 2025}
 {B.S. in Computer Science}{GPA: 86/100}
 
-I am a first-year M.Sc. student in Machine Learning at MBZUAI. My current research interest is to transform 2D vision foundation models into language-controllable spatial intelligence systems grounded in 3D/4D worlds.
+I am a first-year M.Sc. student in Machine Learning at MBZUAI. My research interests broadly lie in computer vision, 3D/4D AI, and AI for biomedical imaging and connectomics.
 
-My research interests include language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, and vision-language-action systems.
+My research interests include computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation, temporally consistent visual modeling, AI for biomedical imaging, and computational connectomics.
 
-I hope to extend my previous experience in reconstructing coherent 3D structures from noisy or degraded observations and generating temporally consistent visual content toward language-grounded 3D/4D world representations, especially the next step from semantic querying to action-aware world modeling.
+I am interested in building learning-based methods for spatial understanding, 3D/4D reconstruction and generation, temporally consistent visual modeling, and large-scale biomedical image analysis.
 
 
 \section{Research Interests}
-Language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, vision-language-action systems
+Computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation, temporally consistent visual modeling, AI for biomedical imaging, computational connectomics
 
 % ==================== Publications ====================
 \section{ Publications}

@@ -1,18 +1,18 @@
 ---
 permalink: /
 title: "Zhenbang Zhang"
-description: "Zhenbang Zhang (Zhang Zhenbang, 张振邦) is an M.Sc. student in Machine Learning at MBZUAI working on spatial intelligence and language-grounded 3D/4D world representations."
+description: "Zhenbang Zhang (Zhang Zhenbang, 张振邦) is an M.Sc. student in Machine Learning at MBZUAI working on computer vision, 3D/4D AI, and AI for biomedical imaging and connectomics."
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-I am Zhenbang Zhang, a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), advised by Prof. [Zhiqiang Xu](https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en). My current research interest is to transform 2D vision foundation models into language-controllable spatial intelligence systems grounded in 3D/4D worlds. I am especially interested in language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, affordance-aware spatial understanding, and action-aware world modeling.
+I am Zhenbang Zhang, a first-year M.Sc. student in Machine Learning at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://www.mbzuai.ac.ae/), advised by Prof. [Zhiqiang Xu](https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en). My research interests broadly lie in computer vision, 3D/4D AI, and AI for biomedical imaging and connectomics. I am especially interested in building learning-based methods for spatial understanding, 3D/4D reconstruction and generation, temporally consistent visual modeling, and large-scale biomedical image analysis.
 
 ## Research Interests
 
-Language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, vision-language-action systems
+Computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation, temporally consistent visual modeling, AI for biomedical imaging, computational connectomics
 
 ## News
 

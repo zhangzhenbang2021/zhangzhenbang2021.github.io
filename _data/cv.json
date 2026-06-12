@@ -4,7 +4,7 @@
     "email": "zhangzhenbang2021@gmail.com",
     "phone": "+971 558899361",
     "website": "https://zhangzhenbang2021.github.io",
-    "summary": "M.Sc. in Machine Learning at MBZUAI | Spatial Intelligence | Language-grounded 3D/4D World Representations",
+    "summary": "M.Sc. in Machine Learning at MBZUAI | Computer Vision | 3D/4D AI | Biomedical Imaging",
     "location": {
       "address": "",
       "postalCode": "",
@@ -93,23 +93,23 @@
   ],
   "interests": [
     {
-      "name": "Language-grounded 3D/4D world representations",
+      "name": "Computer vision",
       "keywords": []
     },
     {
-      "name": "3D/4D Gaussian language fields",
+      "name": "3D/4D AI",
       "keywords": []
     },
     {
-      "name": "Affordance-aware visual understanding",
+      "name": "Spatial intelligence",
       "keywords": []
     },
     {
-      "name": "Action-aware world modeling",
+      "name": "AI for biomedical imaging",
       "keywords": []
     },
     {
-      "name": "Vision-language-action systems",
+      "name": "Computational connectomics",
       "keywords": []
     }
   ],

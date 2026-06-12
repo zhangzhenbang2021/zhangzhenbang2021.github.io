@@ -21,7 +21,7 @@ Education
 
 Research Interests
 ======
-Language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, vision-language-action systems
+Computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation, temporally consistent visual modeling, AI for biomedical imaging, computational connectomics
 
 Research Experience
 ======
