@@ -90,15 +90,15 @@
 {Shandong University}{Sept 2021 -- June 2025}
 {B.S. in Computer Science}{GPA: 86/100}
 
-I am a first-year M.Sc. student in Machine Learning at MBZUAI, working at the intersection of connectomics, computational neuroscience, and machine learning. My current research focuses on 3D reconstruction, restoration, and dense neuron segmentation and tracking from large-scale volume electron microscopy data, with the goal of enabling synaptic-resolution connectome reconstruction and neuronal circuit analysis.
+I am a first-year M.Sc. student in Machine Learning at MBZUAI. My current research interest is to transform 2D vision foundation models into language-controllable spatial intelligence systems grounded in 3D/4D worlds.
 
-My research interests include computational connectomics, synaptic-resolution circuit reconstruction, dense neuron segmentation and tracking, and machine learning for large-scale biological image analysis. I am particularly interested in building scalable algorithms and data pipelines for the reconstruction, annotation, and interpretation of connectomics datasets.
+My research interests include language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, and vision-language-action systems.
 
-I am deeply fascinated by connectomics because I see it as a true form of big science, where progress depends on large-scale data, advanced algorithms, and collaborative infrastructure. Large-scale brain mapping has often been criticized for producing data faster than we can extract meaningful biological insight from it. But I believe this is changing rapidly. Recent breakthroughs in AI for biology, especially in genomics and protein structure prediction, have shown how machine learning can unlock value from massive and complex datasets. For this reason, I believe this is the right moment for AI + connectomics.
+I hope to extend my previous experience in reconstructing coherent 3D structures from noisy or degraded observations and generating temporally consistent visual content toward language-grounded 3D/4D world representations, especially the next step from semantic querying to action-aware world modeling.
 
 
 \section{Research Interests}
-Computational connectomics, Synaptic-resolution connectome reconstruction, Dense neuron segmentation and tracking, Machine learning for multimodal connectomics
+Language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, spatial intelligence, affordance-aware visual understanding, action-aware world modeling, vision-language-action systems
 
 % ==================== Publications ====================
 \section{ Publications}
@@ -145,30 +145,13 @@ Computational connectomics, Synaptic-resolution connectome reconstruction, Dense
 {Research Assistant, MBZUAI and Shandong University}{Oct. 2025 -- Present}
 {Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu}{Abu Dhabi, UAE / Qingdao, China}
 
-\begin{itemize}
-    \item Develop methods for isotropic reconstruction, image restoration, and automatic proofreading in volume EM connectomics, improving 3D volume quality and reconstruction reliability for synaptic-resolution circuit mapping.
-    \item Work on scalable connectome reconstruction systems that reduce manual proofreading burden and improve analysis-ready dataset quality, resulting in \textbf{first-author papers at ICML 2026 and Bioinformatics}.
-\end{itemize}
-
 \resumeSubheading
 {Research Intern, Mathematics and Interdisciplinary Science Center, Shandong University}{Jul. 2023 -- Oct. 2025}
 {Advisor: Prof. Renmin Han}{Qingdao, China}
 
-\begin{itemize}
-    \item Built computational pipelines for serial-section volume electron microscopy, focusing on 3D registration accuracy, ultrastructural fidelity, and scalability for connectomics datasets.
-    \item Developed a Gaussian filter-based 3D registration method for serial-section EM alignment, achieving more than 20\% accuracy improvement; first-author paper accepted to \textbf{\textit{AAAI 2025}}.
-    \item Proposed a Neural ODE-based trajectory-optimization framework for 3D registration, improving cross-section structural consistency; first-author paper accepted to \textbf{\textit{NeurIPS 2025}}.
-    \item Developed \textbf{\textit{vEMRec}}, an end-to-end 3D alignment pipeline validated on six real-world datasets exceeding 1 TB; first-author paper accepted to \textbf{\textit{Advanced Science}}.
-\end{itemize}
-
 \resumeSubheading
 {Research Intern, Mathematics and Interdisciplinary Science Center, Shandong University}{Jun. 2022 -- Jul. 2023}
 {Advisor: Prof. Renmin Han}{Qingdao, China}
-
-\begin{itemize}
-    \item Developed automatic stitching methods for ultra-high-resolution volume EM image sequences, supporting large-scale 3D reconstruction and downstream connectomics workflows.
-    \item Co-first-authored \textbf{\textit{vEMstitch}}, a fully automatic stitching method for volume EM, published in \textbf{\textit{GigaScience 2024}}.
-\end{itemize}
 
 
 

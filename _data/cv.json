@@ -4,7 +4,7 @@
     "email": "zhangzhenbang2021@gmail.com",
     "phone": "+971 558899361",
     "website": "https://zhangzhenbang2021.github.io",
-    "summary": "M.Sc. in Machine Learning at MBZUAI | Computational Connectomics | Neural Circuit Reconstruction",
+    "summary": "M.Sc. in Machine Learning at MBZUAI | Spatial Intelligence | Language-grounded 3D/4D World Representations",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,11 +32,8 @@
       "website": "https://www.mbzuai.ac.ae",
       "startDate": "2025-10",
       "endDate": "Present",
-      "summary": "Research on isotropic reconstruction, image restoration, and automatic proofreading for volume EM connectomics.",
-      "highlights": [
-        "Develop methods for isotropic reconstruction, image restoration, and automatic proofreading in volume EM connectomics",
-        "Work on scalable connectome reconstruction systems that reduce manual proofreading burden and improve analysis-ready dataset quality, resulting in first-author papers at ICML 2026 and Bioinformatics"
-      ]
+      "summary": "",
+      "highlights": []
     },
     {
       "company": "Mathematics and Interdisciplinary Science Center, Shandong University",
@@ -44,13 +41,8 @@
       "website": "https://www.math.qda.edu.cn",
       "startDate": "2023-07",
       "endDate": "2025-10",
-      "summary": "Research on computational pipelines for serial-section volume electron microscopy, focusing on 3D registration accuracy, ultrastructural fidelity, and scalability.",
-      "highlights": [
-        "Built computational pipelines for serial-section volume electron microscopy",
-        "Developed a Gaussian filter-based 3D registration method for serial-section EM alignment (AAAI 2025)",
-        "Proposed a Neural ODE-based trajectory-optimization framework for 3D registration (NeurIPS 2025)",
-        "Developed vEMRec, an end-to-end 3D alignment pipeline validated on six real-world datasets exceeding 1 TB (Advanced Science)"
-      ]
+      "summary": "",
+      "highlights": []
     },
     {
       "company": "Mathematics and Interdisciplinary Science Center, Shandong University",
@@ -58,11 +50,8 @@
       "website": "https://www.math.qda.edu.cn",
       "startDate": "2022-06",
       "endDate": "2023-07",
-      "summary": "Worked on automatic stitching methods for ultra-high-resolution volume EM image sequences.",
-      "highlights": [
-        "Developed automatic stitching methods supporting large-scale 3D reconstruction and downstream connectomics workflows",
-        "Co-first-authored vEMstitch, a fully automatic stitching method for volume EM (GigaScience 2024)"
-      ]
+      "summary": "",
+      "highlights": []
     }
   ],
   "education": [
@@ -104,67 +93,28 @@
   ],
   "interests": [
     {
-      "name": "Computational connectomics",
+      "name": "Language-grounded 3D/4D world representations",
       "keywords": []
     },
     {
-      "name": "Synaptic-resolution connectome reconstruction",
+      "name": "3D/4D Gaussian language fields",
       "keywords": []
     },
     {
-      "name": "Dense neuron segmentation and tracking",
+      "name": "Affordance-aware visual understanding",
       "keywords": []
     },
     {
-      "name": "Machine learning for multimodal connectomics",
+      "name": "Action-aware world modeling",
+      "keywords": []
+    },
+    {
+      "name": "Vision-language-action systems",
       "keywords": []
     }
   ],
   "references": [],
-  "publications": [
-    {
-      "name": "3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration",
-      "publisher": "Bioinformatics",
-      "releaseDate": "2026-05",
-      "website": "",
-      "summary": "Zhenbang Zhang, Hongjia Li, Jingtong Feng, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. RegInpaint jointly addresses deformation correction and missing-information restoration for serial section electron microscopy. Accepted in May 2026."
-    },
-    {
-      "name": "Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening",
-      "publisher": "Proceedings of the Forty-Third International Conference on Machine Learning",
-      "releaseDate": "2026-05",
-      "website": "",
-      "summary": "Zhenbang Zhang, Zihui Cui, Haythem El-Messiry, Renmin Han, and Zhiqiang Xu. Accepted in May 2026."
-    },
-    {
-      "name": "vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment",
-      "publisher": "Advanced Science",
-      "releaseDate": "2026",
-      "website": "",
-      "summary": "Zhenbang Zhang, Hongjia Li, Zhongjun Yang, Zhiqiang Xu, Duanchen Sun, Xin Gao, Fa Zhang, and Renmin Han. An end-to-end 3D reconstruction pipeline for volume electron microscopy, validated on three real-world datasets exceeding 1 TB."
-    },
-    {
-      "name": "Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs",
-      "publisher": "NeurIPS 2025",
-      "releaseDate": "2025",
-      "website": "",
-      "summary": "Zhenbang Zhang, Jingtong Feng, Hongjia Li, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han. An unsupervised trajectory-optimization framework based on Neural ODEs for 3D registration."
-    },
-    {
-      "name": "A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy",
-      "publisher": "AAAI 2025",
-      "releaseDate": "2025",
-      "website": "",
-      "summary": "Zhenbang Zhang, Hongjia Li, Zhiqiang Xu, Wenjia Meng, and Renmin Han. A Gaussian filter-based 3D registration method for serial section electron microscopy."
-    },
-    {
-      "name": "vEMstitch: an algorithm for fully automatic image stitching of volume electron microscopy",
-      "publisher": "GigaScience",
-      "releaseDate": "2024",
-      "website": "",
-      "summary": "Bintao He, Yan Zhang, Zhenbang Zhang, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han. An algorithm for fully automatic image stitching of volume electron microscopy."
-    }
-  ],
+  "publications": [],
   "presentations": [],
   "teaching": [],
   "portfolio": []

@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Zhenbang Zhang"
 title_separator          : "-"
 name                     : &name "Zhenbang Zhang"
-description              : &description "Zhenbang Zhang (Zhang Zhenbang, 张振邦) - academic portfolio in machine learning, computational connectomics, and volume electron microscopy"
+description              : &description "Zhenbang Zhang (Zhang Zhenbang, 张振邦) - academic portfolio in machine learning, spatial intelligence, and language-grounded 3D/4D world representations"
 url                      : https://zhangzhenbang2021.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zhangzhenbang2021/zhangzhenbang2021.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Zhenbang Zhang"
   pronouns         :
-  bio              : "M.Sc. in Machine Learning | MBZUAI | Computational Connectomics | Neural Circuit Reconstruction"
+  bio              : "M.Sc. in Machine Learning | MBZUAI | Spatial Intelligence | Language-grounded 3D/4D World Representations"
   location         : "Abu Dhabi, UAE"
   employer         : "MBZUAI"
   uri              :
