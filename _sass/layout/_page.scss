@@ -156,6 +156,70 @@ a.footnote[data-cite-preview]:focus::after {
   transform: translate(-50%, 0);
 }
 
+.homepage-publications {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.homepage-publication {
+  display: grid;
+  grid-template-columns: minmax(150px, 32%) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.homepage-publication__figure {
+  margin: 0;
+}
+
+.homepage-publication__figure img {
+  display: block;
+  width: 100%;
+  max-height: 150px;
+  object-fit: contain;
+}
+
+.homepage-publication--no-image {
+  grid-template-columns: 1fr;
+}
+
+.homepage-publication--no-image .homepage-publication__figure {
+  display: none;
+}
+
+.homepage-publication__body h3 {
+  margin: 0 0 0.35rem;
+  font-size: $type-size-5;
+  line-height: 1.35;
+}
+
+.homepage-publication__authors,
+.homepage-publication__venue,
+.publication-note {
+  margin: 0.25rem 0 0;
+  font-size: $type-size-6;
+  line-height: 1.45;
+}
+
+.homepage-publication__venue {
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+
+@include breakpoint($small) {
+  .homepage-publication {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .homepage-publication__figure img {
+    max-height: none;
+  }
+}
+
 html[data-theme="dark"] {
   a.footnote[data-cite-preview] {
     color: #fff;
