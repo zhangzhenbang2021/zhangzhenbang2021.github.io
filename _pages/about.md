@@ -27,114 +27,30 @@ Language-grounded 3D/4D world representations, 3D/4D Gaussian language fields, s
 
 ## Publications
 
-<table class="publication-table"><tbody>
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/reginpaint.png" alt="Overview of 3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/RegInpaint-Bioinformatics-2026"><span class="papertitle">3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration</span></a>
-      <br>
-      <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li, Jingtong Feng<sup>&dagger;</sup>, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han
-      <br>
-      <em>Bioinformatics</em>, 2026
-      <br>
-      [<a href="{{ site.baseurl }}/publication/RegInpaint-Bioinformatics-2026">Website</a>]
-      <p>We propose RegInpaint, a 3D registration-guided deformable residual inpainting framework for serial section electron microscopy restoration.</p>
-    </td>
-  </tr>
+<div class="publication-list">
+  <p><a href="{{ site.baseurl }}/publication/RegInpaint-Bioinformatics-2026"><span class="papertitle">3D Registration-Guided Deformable Residual Inpainting for ssEM Restoration</span></a><br>
+  <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li, Jingtong Feng<sup>&dagger;</sup>, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han<br>
+  <em>Bioinformatics</em>, 2026</p>
 
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/motion-residual-time-reversal.png" alt="Overview of Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/Motion-Residual-Conflict-Aware-Time-Reversal-ICML-2026"><span class="papertitle">Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening</span></a>
-      <br>
-      <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Zihui Cui<sup>&dagger;</sup>, Haythem El-Messiry, Renmin Han, and Zhiqiang Xu
-      <br>
-      <em>Forty-Third International Conference on Machine Learning (ICML)</em>, 2026
-      <br>
-      [<a href="{{ site.baseurl }}/publication/Motion-Residual-Conflict-Aware-Time-Reversal-ICML-2026">Website</a>]
-      <p>We present a motion-residual conflict-aware time-reversal method for temporally consistent generative inbetweening.</p>
-    </td>
-  </tr>
+  <p><a href="{{ site.baseurl }}/publication/Motion-Residual-Conflict-Aware-Time-Reversal-ICML-2026"><span class="papertitle">Motion-Residual Conflict-Aware Time Reversal for Generative Inbetweening</span></a><br>
+  <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Zihui Cui<sup>&dagger;</sup>, Haythem El-Messiry, Renmin Han, and Zhiqiang Xu<br>
+  <em>Forty-Third International Conference on Machine Learning (ICML)</em>, 2026</p>
 
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/vemrec.png" alt="Overview of vEMRec">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/vEMRec-2026"><span class="papertitle">vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment</span></a>
-      <br>
-      <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li<sup>&dagger;</sup>, Zhongjun Yang, Zhiqiang Xu, Duanchen Sun, Xin Gao, Fa Zhang, and Renmin Han
-      <br>
-      <em>Advanced Science</em>, 2026
-      <br>
-      [<a href="{{ site.baseurl }}/publication/vEMRec-2026">Website</a>]
-      <p>We introduce vEMRec, an end-to-end 3D alignment pipeline for high-resolution volume electron microscopy reconstruction.</p>
-    </td>
-  </tr>
+  <p><a href="{{ site.baseurl }}/publication/vEMRec-2026"><span class="papertitle">vEMRec: High-Resolution Volume Electron Microscopy Reconstruction Based on Structure-Preserving and High-Fidelity 3D Alignment</span></a><br>
+  <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li<sup>&dagger;</sup>, Zhongjun Yang, Zhiqiang Xu, Duanchen Sun, Xin Gao, Fa Zhang, and Renmin Han<br>
+  <em>Advanced Science</em>, 2026</p>
 
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/neural-ode-registration.png" alt="Overview of Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/Neural-ODE-Registration-NeurIPS-2025"><span class="papertitle">Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs</span></a>
-      <br>
-      <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Jingtong Feng<sup>&dagger;</sup>, Hongjia Li, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han
-      <br>
-      <em>Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025
-      <br>
-      [<a href="{{ site.baseurl }}/publication/Neural-ODE-Registration-NeurIPS-2025">Website</a>]
-      <p>We formulate serial-section electron microscopy alignment as unsupervised trajectory optimization with Neural ODEs.</p>
-    </td>
-  </tr>
+  <p><a href="{{ site.baseurl }}/publication/Neural-ODE-Registration-NeurIPS-2025"><span class="papertitle">Unsupervised Trajectory Optimization for 3D Registration in Serial Section Electron Microscopy using Neural ODEs</span></a><br>
+  <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Jingtong Feng<sup>&dagger;</sup>, Hongjia Li, Haythem El-Messiry, Zhiqiang Xu, and Renmin Han<br>
+  <em>Thirty-Ninth Annual Conference on Neural Information Processing Systems (NeurIPS)</em>, 2025</p>
 
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/gaussian-3d-registration.png" alt="Overview of A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/Gaussian-3D-Registration-AAAI-2025"><span class="papertitle">A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy</span></a>
-      <br>
-      <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li<sup>&dagger;</sup>, Zhiqiang Xu, Wenjia Meng, and Renmin Han
-      <br>
-      <em>Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI)</em>, 2025
-      <br>
-      [<a href="{{ site.baseurl }}/publication/Gaussian-3D-Registration-AAAI-2025">Website</a>]
-      <p>We propose a Gaussian filter-based 3D registration method for improving serial-section electron microscopy alignment.</p>
-    </td>
-  </tr>
+  <p><a href="{{ site.baseurl }}/publication/Gaussian-3D-Registration-AAAI-2025"><span class="papertitle">A Gaussian Filter-Based 3D Registration Method for Series Section Electron Microscopy</span></a><br>
+  <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Hongjia Li<sup>&dagger;</sup>, Zhiqiang Xu, Wenjia Meng, and Renmin Han<br>
+  <em>Thirty-Ninth AAAI Conference on Artificial Intelligence (AAAI)</em>, 2025</p>
 
-  <tr>
-    <td class="publication-image-cell">
-      <div class="publication-image">
-        <img src="{{ site.baseurl }}/images/publications/vemstitch.png" alt="Overview of vEMstitch">
-      </div>
-    </td>
-    <td class="publication-info-cell">
-      <a href="{{ site.baseurl }}/publication/vEMstitch-2024"><span class="papertitle">vEMstitch: An Algorithm for Fully Automatic Image Stitching of Volume Electron Microscopy</span></a>
-      <br>
-      Bintao He<sup>&dagger;</sup>, Yan Zhang<sup>&dagger;</sup>, <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han
-      <br>
-      <em>GigaScience</em>, 2024
-      <br>
-      [<a href="{{ site.baseurl }}/publication/vEMstitch-2024">Website</a>]
-      <p>We develop vEMstitch, a fully automatic image stitching method for volume electron microscopy.</p>
-    </td>
-  </tr>
-</tbody></table>
+  <p><a href="{{ site.baseurl }}/publication/vEMstitch-2024"><span class="papertitle">vEMstitch: An Algorithm for Fully Automatic Image Stitching of Volume Electron Microscopy</span></a><br>
+  Bintao He<sup>&dagger;</sup>, Yan Zhang<sup>&dagger;</sup>, <strong>Zhenbang Zhang</strong><sup>&dagger;</sup>, Yiran Cheng, Fa Zhang, Fei Sun, and Renmin Han<br>
+  <em>GigaScience</em>, 2024</p>
+</div>
 
 <p><sup>&dagger;</sup> Equal contribution.</p>
