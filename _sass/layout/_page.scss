@@ -169,6 +169,10 @@ a.footnote[data-cite-preview]:focus::after {
   border: 0;
 }
 
+.publication-table tr {
+  border: 0;
+}
+
 .publication-image-cell {
   width: 20%;
   padding: 16px;
@@ -194,9 +198,14 @@ a.footnote[data-cite-preview]:focus::after {
 }
 
 .papertitle {
+  color: var(--global-text-color);
   font-family: $sans-serif;
   font-size: 14px;
   font-weight: 700;
+}
+
+.publication-info-cell a:has(.papertitle) {
+  text-decoration: none;
 }
 
 .publication-info-cell,
@@ -211,7 +220,7 @@ a.footnote[data-cite-preview]:focus::after {
   margin: 0.75em 0 0;
 }
 
-@include breakpoint($small) {
+@include breakpoint(max-width $small) {
   .publication-table,
   .publication-table tbody,
   .publication-table tr,
