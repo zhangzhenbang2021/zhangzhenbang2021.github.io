@@ -1,0 +1,62 @@
+primary_name: "Zhenbang Zhang"
+secondary_name: "Zhang Zhenbang"
+navbar_name: "Zhenbang Zhang"
+
+positions:
+- name: M.Sc. Student in Machine Learning
+- name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+- name: Computer Vision | 3D/4D AI | Biomedical Imaging
+
+email: "zhangzhenbang2021@gmail.com"
+secondary_email: "Zhenbang.Zhang@mbzuai.ac.ae"
+phones:
+- "+971 558899361"
+- "+86 15753409021"
+cv_link: /CV.pdf
+gscholar: "zUD-nWMAAAAJ"
+github: zhangzhenbang2021
+
+short_bio_text_justify: true
+short_bio: >-
+  <p>
+    I am a first-year M.Sc. student in Machine Learning at
+    <a href="https://www.mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>,
+    advised by Prof. <a href="https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en" target="_blank">Zhiqiang Xu</a>.
+    My research interests broadly lie in computer vision, 3D/4D AI, and AI for biomedical imaging and connectomics.
+  </p>
+  <p>
+    I am especially interested in building learning-based methods for spatial understanding,
+    3D/4D reconstruction and generation, temporally consistent visual modeling,
+    and large-scale biomedical image analysis.
+  </p>
+  <p>
+    Research interests: computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation,
+    temporally consistent visual modeling, AI for biomedical imaging, and computational connectomics.
+  </p>
+
+portrait_url: /assets/images/photos/zhenbang-zhang.png
+portrait_caption: Zhenbang Zhang
+
+education:
+- name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
+  dept: Machine Learning
+  position: M.Sc. in Machine Learning
+  date: Sep. 2025 - present
+- name: Shandong University
+  dept: Computer Science
+  position: B.S. in Computer Science
+  date: Sep. 2021 - Jun. 2025
+
+experience:
+- name: MBZUAI and Shandong University
+  dept: "Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu"
+  position: Research Assistant
+  date: Oct. 2025 - present
+- name: Mathematics and Interdisciplinary Science Center, Shandong University
+  dept: "Advisor: Prof. Renmin Han"
+  position: Research Intern
+  date: Jul. 2023 - Oct. 2025
+- name: Mathematics and Interdisciplinary Science Center, Shandong University
+  dept: "Advisor: Prof. Renmin Han"
+  position: Research Intern
+  date: Jun. 2022 - Jul. 2023
