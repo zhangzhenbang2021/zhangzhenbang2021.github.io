@@ -3,15 +3,9 @@ secondary_name: "Zhang Zhenbang"
 navbar_name: "Zhenbang Zhang"
 
 positions:
-- name: M.Sc. Student in Machine Learning
-- name: Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)
-- name: Computer Vision | 3D/4D AI | Biomedical Imaging
+- name: M.Sc. Student in Machine Learning, MBZUAI
 
 email: "zhangzhenbang2021@gmail.com"
-secondary_email: "Zhenbang.Zhang@mbzuai.ac.ae"
-phones:
-- "+971 558899361"
-- "+86 15753409021"
 cv_link: /CV.pdf
 gscholar: "zUD-nWMAAAAJ"
 github: zhangzhenbang2021
