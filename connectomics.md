@@ -9,7 +9,7 @@ container_class: container-xl
 
 <header class="connectomics-hero">
 <div class="connectomics-kicker">Research View</div>
-<h1>我对 connectomics 的理解</h1>
+<h1>My Understanding of Connectomics</h1>
 <p>
 Connectomics links synapse-level neural wiring, circuit mechanisms, and scalable AI reconstruction systems. I see it as a structural foundation for explaining neural computation from biological image data.
 </p>
