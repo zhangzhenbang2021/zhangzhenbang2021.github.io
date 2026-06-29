@@ -99,16 +99,68 @@ div.lazy {
 }
 
 .connectomics-page {
-    line-height: 1.7;
+    color: #222831;
+    line-height: 1.75;
+    margin: 0 auto 2rem;
+    max-width: 980px;
 }
 
-.connectomics-page h2 {
-    margin-bottom: 1.25rem;
+.connectomics-hero {
+    background: #ffffff;
+    border-left: 5px solid #0092ca;
+    border-radius: 0.45rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    margin-bottom: 1.5rem;
+    padding: 1.75rem 2rem;
+}
+
+.connectomics-kicker {
+    color: #0092ca;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.78rem;
+    font-weight: 700;
+    margin-bottom: 0.55rem;
+    text-transform: uppercase;
+}
+
+.connectomics-hero h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 0.85rem;
+}
+
+.connectomics-hero p {
+    color: #4a5568;
+    font-size: 1.05rem;
+    margin-bottom: 1rem;
+    max-width: 760px;
+}
+
+.connectomics-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.connectomics-tags span {
+    background: #f3f8fb;
+    border: 1px solid #d7e8ef;
+    border-radius: 999px;
+    color: #2f5968;
+    font-size: 0.85rem;
+    padding: 0.28rem 0.65rem;
+}
+
+.connectomics-essay {
+    background: #ffffff;
+    border-radius: 0.45rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
 }
 
 .connectomics-section {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    padding: 1rem 0;
+    border-top: 1px solid #d9e3e8;
+    padding: 0;
 }
 
 .connectomics-section:first-of-type {
@@ -116,19 +168,123 @@ div.lazy {
 }
 
 .connectomics-section summary {
+    align-items: flex-start;
+    background: #fbfdfe;
     cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 1.15rem 1.4rem;
+}
+
+.connectomics-section summary::-webkit-details-marker {
+    display: none;
+}
+
+.connectomics-section summary::after {
+    color: #0092ca;
+    content: "+";
+    font-size: 1.35rem;
     font-weight: 700;
-    font-size: 1.05rem;
+    line-height: 1;
+    margin-left: auto;
+    padding-top: 0.05rem;
+}
+
+.connectomics-section[open] summary::after {
+    content: "-";
+}
+
+.connectomics-index {
+    color: #0092ca;
+    flex: 0 0 auto;
+    font-family: "Source Code Pro", monospace;
+    font-size: 0.95rem;
+    font-weight: 700;
+    padding-top: 0.1rem;
+}
+
+.connectomics-summary-text {
+    display: grid;
+    gap: 0.18rem;
+}
+
+.connectomics-summary-text strong {
+    color: #222831;
+    font-size: 1.08rem;
+}
+
+.connectomics-summary-text em {
+    color: #6a7785;
+    font-size: 0.92rem;
+    font-style: normal;
 }
 
 .connectomics-section p {
-    margin-top: 1rem;
-    margin-bottom: 0;
+    margin: 0;
+    padding: 1.25rem 1.4rem 1.5rem 3.9rem;
+}
+
+.connectomics-page a.footnote {
+    background: #eef7fb;
+    border: 1px solid #cfe4ed;
+    border-radius: 999px;
+    color: #006d96;
+    font-size: 0.72rem;
+    margin-left: 0.05rem;
+    padding: 0.05rem 0.28rem;
+    text-decoration: none;
 }
 
 .connectomics-page .footnotes {
-    border-top: 1px solid rgba(0, 0, 0, 0.08);
-    font-size: 0.95rem;
-    margin-top: 2rem;
-    padding-top: 1rem;
+    background: #ffffff;
+    border-left: 5px solid #7a8288;
+    border-radius: 0.45rem;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    color: #4a5568;
+    font-size: 0.88rem;
+    margin-top: 1.5rem;
+    padding: 1rem 1.25rem 0.75rem;
+}
+
+.connectomics-page .footnotes::before {
+    color: #222831;
+    content: "References";
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0.65rem;
+}
+
+.connectomics-page .footnotes ol {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
+.connectomics-page .footnotes li {
+    margin-bottom: 0.55rem;
+}
+
+.connectomics-page .reversefootnote {
+    color: #0092ca;
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    .connectomics-hero {
+        padding: 1.35rem 1.2rem;
+    }
+
+    .connectomics-hero h1 {
+        font-size: 1.55rem;
+    }
+
+    .connectomics-section summary {
+        gap: 0.75rem;
+        padding: 1rem 1rem;
+    }
+
+    .connectomics-section p {
+        padding: 1rem 1rem 1.25rem;
+    }
 }
