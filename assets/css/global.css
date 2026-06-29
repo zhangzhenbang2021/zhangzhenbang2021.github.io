@@ -92,3 +92,43 @@ div.lazy {
     font-family: Source Code Pro, monospace;
     overflow-wrap: anywhere;
 }
+
+.connectomics-link {
+    display: inline-block;
+    margin-bottom: 0.25rem;
+}
+
+.connectomics-page {
+    line-height: 1.7;
+}
+
+.connectomics-page h2 {
+    margin-bottom: 1.25rem;
+}
+
+.connectomics-section {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 1rem 0;
+}
+
+.connectomics-section:first-of-type {
+    border-top: 0;
+}
+
+.connectomics-section summary {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+
+.connectomics-section p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.connectomics-page .footnotes {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    font-size: 0.95rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+}

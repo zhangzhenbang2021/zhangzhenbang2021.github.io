@@ -16,16 +16,14 @@ short_bio: >-
     I am a first-year M.Sc. student in Machine Learning at
     <a href="https://www.mbzuai.ac.ae/" target="_blank">Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</a>,
     advised by Prof. <a href="https://scholar.google.com/citations?user=0R20iBMAAAAJ&hl=en" target="_blank">Zhiqiang Xu</a>.
-    My research interests broadly lie in computer vision, 3D/4D AI, and AI for biomedical imaging and connectomics.
+    My research interests broadly lie in computer vision and AI for biomedical imaging and connectomics.
   </p>
   <p>
-    I am especially interested in building learning-based methods for spatial understanding,
-    3D/4D reconstruction and generation, temporally consistent visual modeling,
-    and large-scale biomedical image analysis.
-  </p>
-  <p>
-    Research interests: computer vision, 3D/4D AI, spatial intelligence, 3D/4D reconstruction and generation,
-    temporally consistent visual modeling, AI for biomedical imaging, and computational connectomics.
+    My work focuses on developing AI methods for recovering reliable spatial-temporal structure from noisy, distorted,
+    incomplete, and inconsistent visual observations. I am particularly interested in modeling visual degradations such as
+    noise, distortion, missing data, and motion conflicts, and in designing structure-preserving reconstruction methods
+    for 3D alignment, inpainting, and volumetric consistency. My research spans both general visual data, such as video
+    generation, and scientific imaging data, such as connectomics microscopy.
   </p>
 
 portrait_url: /assets/images/photos/zhenbang-zhang.png
