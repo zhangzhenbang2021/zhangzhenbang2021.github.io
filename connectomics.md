@@ -3,6 +3,7 @@ layout: default
 title: Connectomics
 navbar_title: Connectomics
 container_class: container-xl
+body_attr: data-page="connectomics"
 ---
 
 <div class="connectomics-page" markdown="1">

@@ -7,6 +7,7 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="google-site-verification" content="_FRbmBh1qgj0xbacWH8RLRqa1YSfzKVtjUHSVgWbRCk">
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    {% include theme_bootstrap.html %}
     <link rel="icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
     <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
 
@@ -49,6 +50,7 @@
         });
     </script>
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/theme_toggle.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/semantic_scholar_citation_count.js' | relative_url }}"></script>
 </body>

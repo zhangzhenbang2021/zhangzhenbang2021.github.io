@@ -1,16 +1,110 @@
 @charset "utf-8";
+
+:root {
+    color-scheme: light;
+    --site-bg: #f8f9fa;
+    --site-surface: #ffffff;
+    --site-surface-soft: #fbfdfe;
+    --site-text: #222831;
+    --site-muted: #6c757d;
+    --site-border: rgba(0, 0, 0, 0.1);
+    --site-link: #006d96;
+    --site-link-hover: #004f70;
+    --site-navbar-bg: rgba(255, 255, 255, 0.72);
+    --site-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    --connectomics-panel: rgba(255, 255, 255, 0.9);
+    --connectomics-panel-strong: rgba(255, 255, 255, 0.94);
+    --connectomics-panel-soft: rgba(251, 253, 254, 0.9);
+    --connectomics-overlay: linear-gradient(180deg, rgba(248, 251, 252, 0.58) 0%, rgba(248, 251, 252, 0.76) 42%, rgba(248, 251, 252, 0.9) 100%);
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --site-bg: #101418;
+    --site-surface: #171d23;
+    --site-surface-soft: #1f2730;
+    --site-text: #e8edf2;
+    --site-muted: #aeb8c2;
+    --site-border: rgba(255, 255, 255, 0.14);
+    --site-link: #77d4ff;
+    --site-link-hover: #a8e4ff;
+    --site-navbar-bg: rgba(16, 20, 24, 0.78);
+    --site-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
+    --connectomics-panel: rgba(18, 24, 30, 0.86);
+    --connectomics-panel-strong: rgba(20, 27, 34, 0.9);
+    --connectomics-panel-soft: rgba(28, 36, 44, 0.88);
+    --connectomics-overlay: linear-gradient(180deg, rgba(8, 12, 16, 0.48) 0%, rgba(8, 12, 16, 0.68) 46%, rgba(8, 12, 16, 0.84) 100%);
+}
+
+html {
+    background-color: var(--site-bg);
+}
+
 body {
+    background-color: var(--site-bg);
+    color: var(--site-text);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     padding-top: 5.0rem;
+    transition: background-color 0.18s ease, color 0.18s ease;
+}
+
+body.bg-light,
+.bg-light {
+    background-color: var(--site-bg) !important;
+}
+
+.bg-white,
+.card,
+.footer {
+    background-color: var(--site-surface) !important;
+    color: var(--site-text);
+}
+
+.text-muted {
+    color: var(--site-muted) !important;
+}
+
+.badge-light {
+    background-color: var(--site-surface-soft);
+    color: var(--site-text);
+}
+
+.table,
+table {
+    color: var(--site-text);
+}
+
+.modal-content {
+    background-color: var(--site-surface);
+    color: var(--site-text);
+}
+
+.border,
+.border-top,
+.border-bottom,
+.border-left,
+.border-right {
+    border-color: var(--site-border) !important;
+}
+
+a {
+    color: var(--site-link);
+}
+
+a:hover,
+a:focus {
+    color: var(--site-link-hover);
 }
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: var(--site-text);
     font-weight: 700;
 }
 
 .card {
+    border-color: var(--site-border);
     border-radius: 0.8rem!important;
 }
 
@@ -32,67 +126,70 @@ h1, h2, h3, h4, h5, h6,
     border-top-right-radius: 0.8rem !important;
 }
 
-
 .text-profile-position {
     font-weight: 400;
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
     font-weight: 400;
 }
 
 .navbar {
-    background-color: rgba(255, 255, 255, 0.6) !important;
+    background-color: var(--site-navbar-bg) !important;
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
 }
 
-.navbar .nav-item-highlight {
-    margin-left: 0.35rem;
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+    color: var(--site-muted);
+}
+
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--site-text);
 }
 
 .navbar .nav-link-highlight {
-    align-items: center;
-    background: linear-gradient(135deg, #006d96 0%, #0092ca 48%, #35c0a3 100%);
-    border: 1px solid rgba(255, 255, 255, 0.78);
-    border-radius: 999px;
-    box-shadow: 0 8px 22px rgba(0, 146, 202, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.45);
-    color: #ffffff !important;
-    display: inline-flex;
-    font-weight: 700;
-    gap: 0.42rem;
-    letter-spacing: 0;
-    margin-top: 0.05rem;
-    padding: 0.36rem 0.78rem !important;
-    transition: transform 0.16s ease, box-shadow 0.16s ease, filter 0.16s ease;
+    color: var(--site-text) !important;
+    font-weight: 900;
 }
 
-.navbar .nav-link-highlight:hover,
-.navbar .nav-link-highlight:focus {
-    box-shadow: 0 10px 26px rgba(0, 146, 202, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.55);
-    color: #ffffff !important;
-    filter: saturate(1.08);
+.nav-item-theme {
+    align-items: center;
+    display: flex;
+}
+
+.theme-toggle {
+    align-items: center;
+    background: var(--site-surface-soft);
+    border: 1px solid var(--site-border);
+    border-radius: 999px;
+    color: var(--site-text);
+    cursor: pointer;
+    display: inline-flex;
+    height: 2rem;
+    justify-content: center;
+    margin-left: 0.35rem;
+    padding: 0;
+    transition: background-color 0.16s ease, border-color 0.16s ease, color 0.16s ease, transform 0.16s ease;
+    width: 2rem;
+}
+
+.theme-toggle:hover,
+.theme-toggle:focus {
+    background: var(--site-surface);
+    border-color: var(--site-link);
+    color: var(--site-link);
+    outline: none;
     transform: translateY(-1px);
 }
 
-.navbar .active .nav-link-highlight {
-    box-shadow: 0 0 0 3px rgba(53, 192, 163, 0.22), 0 10px 26px rgba(0, 146, 202, 0.28);
-}
-
-.navbar .nav-link-highlight i {
-    font-size: 0.9rem;
-}
-
 @media (max-width: 575.98px) {
-    .navbar .nav-item-highlight {
-        margin-left: 0;
-        margin-top: 0.35rem;
-    }
-
-    .navbar .nav-link-highlight {
-        justify-content: center;
-        width: fit-content;
+    .theme-toggle {
+        margin: 0.45rem 0 0;
     }
 }
 
@@ -141,71 +238,63 @@ div.lazy {
     overflow-wrap: anywhere;
 }
 
-.connectomics-page {
-    color: #222831;
-    isolation: isolate;
-    line-height: 1.75;
-    margin: 0 auto 2rem;
-    max-width: 980px;
-    overflow: hidden;
-    padding: 1.35rem;
+body[data-page="connectomics"] {
+    background-color: transparent !important;
     position: relative;
 }
 
-.connectomics-page::before {
-    background:
-        radial-gradient(circle at 18% 16%, rgba(53, 192, 163, 0.18), transparent 30%),
-        radial-gradient(circle at 82% 14%, rgba(0, 146, 202, 0.18), transparent 34%),
-        url('/minnie-3d-cells.png') center 8% / cover no-repeat;
+body[data-page="connectomics"]::before {
+    background: url('/minnie-3d-cells.png') center center / cover no-repeat;
     content: "";
-    filter: saturate(1.2) contrast(0.96);
+    filter: saturate(1.22) contrast(1.02);
     inset: 0;
-    opacity: 0.18;
+    opacity: 0.42;
     pointer-events: none;
-    position: absolute;
+    position: fixed;
     z-index: 0;
 }
 
-.connectomics-page::after {
-    background:
-        linear-gradient(180deg, rgba(248, 251, 252, 0.76) 0%, rgba(248, 251, 252, 0.92) 36%, rgba(248, 251, 252, 0.96) 100%);
+body[data-page="connectomics"]::after {
+    background: var(--connectomics-overlay);
     content: "";
     inset: 0;
     pointer-events: none;
-    position: absolute;
+    position: fixed;
+    z-index: 0;
+}
+
+body[data-page="connectomics"] > .container-xl,
+body[data-page="connectomics"] > .container-lg,
+body[data-page="connectomics"] > footer {
+    position: relative;
     z-index: 1;
 }
 
-.connectomics-page > * {
-    position: relative;
-    z-index: 2;
+body[data-page="connectomics"] > .navbar {
+    z-index: 1030;
+}
+
+html[data-theme="dark"] body[data-page="connectomics"]::before {
+    filter: saturate(1.15) contrast(0.95) brightness(0.82);
+    opacity: 0.46;
+}
+
+.connectomics-page {
+    color: var(--site-text);
+    line-height: 1.75;
+    margin: 0 auto 2rem;
+    max-width: 980px;
+    padding: 1.35rem;
 }
 
 .connectomics-hero {
-    background: rgba(255, 255, 255, 0.92);
+    background: var(--connectomics-panel);
     border-left: 5px solid #0092ca;
     border-radius: 0.45rem;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--site-shadow);
     margin-bottom: 1.5rem;
     overflow: hidden;
     padding: 1.75rem 2rem;
-    position: relative;
-}
-
-.connectomics-hero::after {
-    background:
-        linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.72) 58%, rgba(255, 255, 255, 0.9) 100%),
-        url('/minnie-3d-cells.png') center / cover no-repeat;
-    content: "";
-    inset: -2.5rem -2rem -2.5rem 48%;
-    opacity: 0.18;
-    pointer-events: none;
-    position: absolute;
-}
-
-.connectomics-hero > * {
-    position: relative;
-    z-index: 1;
 }
 
 .connectomics-kicker {
@@ -224,7 +313,7 @@ div.lazy {
 }
 
 .connectomics-hero p {
-    color: #4a5568;
+    color: var(--site-muted);
     font-size: 1.05rem;
     margin-bottom: 1rem;
     max-width: 760px;
@@ -237,25 +326,25 @@ div.lazy {
 }
 
 .connectomics-tags span {
-    background: #f3f8fb;
-    border: 1px solid #d7e8ef;
+    background: var(--site-surface-soft);
+    border: 1px solid var(--site-border);
     border-radius: 999px;
-    color: #2f5968;
+    color: var(--site-muted);
     font-size: 0.85rem;
     padding: 0.28rem 0.65rem;
 }
 
 .connectomics-essay {
-    background: rgba(255, 255, 255, 0.94);
+    background: var(--connectomics-panel-strong);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 0.45rem;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: var(--site-shadow);
     overflow: hidden;
 }
 
 .connectomics-section {
-    border-top: 1px solid #d9e3e8;
+    border-top: 1px solid var(--site-border);
     padding: 0;
 }
 
@@ -265,7 +354,7 @@ div.lazy {
 
 .connectomics-section summary {
     align-items: flex-start;
-    background: rgba(251, 253, 254, 0.92);
+    background: var(--connectomics-panel-soft);
     cursor: pointer;
     display: flex;
     gap: 1rem;
@@ -306,12 +395,12 @@ div.lazy {
 }
 
 .connectomics-summary-text strong {
-    color: #222831;
+    color: var(--site-text);
     font-size: 1.08rem;
 }
 
 .connectomics-summary-text em {
-    color: #6a7785;
+    color: var(--site-muted);
     font-size: 0.92rem;
     font-style: normal;
 }
@@ -322,10 +411,10 @@ div.lazy {
 }
 
 .connectomics-page a.footnote {
-    background: #eef7fb;
-    border: 1px solid #cfe4ed;
+    background: var(--site-surface-soft);
+    border: 1px solid var(--site-border);
     border-radius: 999px;
-    color: #006d96;
+    color: var(--site-link);
     font-size: 0.72rem;
     margin-left: 0.05rem;
     padding: 0.05rem 0.28rem;
@@ -333,20 +422,20 @@ div.lazy {
 }
 
 .connectomics-page .footnotes {
-    background: rgba(255, 255, 255, 0.94);
+    background: var(--connectomics-panel-strong);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-left: 5px solid #7a8288;
     border-radius: 0.45rem;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-    color: #4a5568;
+    box-shadow: var(--site-shadow);
+    color: var(--site-muted);
     font-size: 0.88rem;
     margin-top: 1.5rem;
     padding: 1rem 1.25rem 0.75rem;
 }
 
 .connectomics-page .footnotes::before {
-    color: #222831;
+    color: var(--site-text);
     content: "References";
     display: block;
     font-size: 1rem;
@@ -364,7 +453,7 @@ div.lazy {
 }
 
 .connectomics-page .reversefootnote {
-    color: #0092ca;
+    color: var(--site-link);
     text-decoration: none;
 }
 
@@ -373,18 +462,13 @@ div.lazy {
         padding: 0.85rem;
     }
 
-    .connectomics-page::before {
+    body[data-page="connectomics"]::before {
         background-position: 38% top;
-        opacity: 0.14;
+        opacity: 0.34;
     }
 
     .connectomics-hero {
         padding: 1.35rem 1.2rem;
-    }
-
-    .connectomics-hero::after {
-        inset: 0;
-        opacity: 0.08;
     }
 
     .connectomics-hero h1 {

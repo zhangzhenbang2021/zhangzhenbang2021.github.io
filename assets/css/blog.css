@@ -264,3 +264,36 @@ h1, h2, h3, h4, h5, h6,
 .blog-toc-nav {
     scrollbar-width: none;
 }
+
+html[data-theme="dark"] .blog-content h1,
+html[data-theme="dark"] .blog-content h2 {
+    border-bottom-color: var(--site-border);
+}
+
+html[data-theme="dark"] .blog-content blockquote {
+    border-left-color: var(--site-border);
+    color: var(--site-muted);
+}
+
+html[data-theme="dark"] .blog-content table th,
+html[data-theme="dark"] .blog-content table td {
+    border-color: var(--site-border);
+}
+
+html[data-theme="dark"] .blog-content table th {
+    background-color: var(--site-surface-soft);
+}
+
+html[data-theme="dark"] .blog-toc-nav {
+    border-left-color: var(--site-border);
+}
+
+html[data-theme="dark"] .blog-toc-title,
+html[data-theme="dark"] .blog-toc-list a {
+    color: var(--site-muted);
+}
+
+html[data-theme="dark"] .blog-toc-list a:hover,
+html[data-theme="dark"] .blog-toc-list a.toc-active {
+    color: var(--site-text);
+}

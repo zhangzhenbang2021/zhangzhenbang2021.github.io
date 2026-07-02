@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }} - {{ site.data.profile.navbar_name }}</title>
+    {% include theme_bootstrap.html %}
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
@@ -25,7 +26,7 @@
     <main class="flex-grow-1">
         <div class="blog-layout-wrapper">
             <div class="blog-main">
-                <article class="bg-white rounded-xl p-4 mb-4" style="border: 1px solid #f0f0f0;">
+                <article class="bg-white rounded-xl p-4 mb-4" style="border: 1px solid var(--site-border);">
                     <header class="mb-4">
                         <h1 class="display-4 mb-3">{{ page.title }}</h1>
                         <div class="text-muted mb-3">
@@ -84,6 +85,7 @@
     </script>
     <script src="{{ '/assets/js/blog.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/theme_toggle.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/semantic_scholar_citation_count.js' | relative_url }}"></script>
 </body>
