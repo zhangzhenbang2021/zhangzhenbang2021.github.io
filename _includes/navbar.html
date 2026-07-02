@@ -8,12 +8,12 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 {% for item in site.data.navigation.pages %}
-                <li class="nav-item {% if item.name == page.navbar_title or include.active_page == item.name %}active{% endif %} {% if item.highlight %}nav-item-highlight{% endif %}">
-                    <a class="nav-link {% if item.highlight %}nav-link-highlight{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                <li class="nav-item {% if item.name == page.navbar_title or include.active_page == item.name %}active{% endif %}">
+                    <a class="nav-link {% if item.strong %}nav-link-strong{% endif %}" href="{{ item.url | relative_url }}">{{ item.name }}</a>
                 </li>
                 {% endfor %}
                 <li class="nav-item nav-item-theme">
-                    <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">
+                    <button class="theme-toggle" type="button" onclick="window.toggleSiteTheme()" aria-label="Switch to dark theme" aria-pressed="false" title="Switch to dark theme">
                         <i class="fas fa-moon"></i>
                     </button>
                 </li>

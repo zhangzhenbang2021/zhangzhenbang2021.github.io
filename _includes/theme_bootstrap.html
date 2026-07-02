@@ -1,11 +1,53 @@
 <script>
     (function() {
-        try {
-            var storedTheme = localStorage.getItem("site-theme");
-            var theme = storedTheme === "dark" ? "dark" : "light";
-            document.documentElement.setAttribute("data-theme", theme);
-        } catch (error) {
-            document.documentElement.setAttribute("data-theme", "light");
+        function readStoredTheme() {
+            try {
+                return localStorage.getItem("site-theme");
+            } catch (error) {
+                return null;
+            }
         }
+
+        function writeStoredTheme(theme) {
+            try {
+                localStorage.setItem("site-theme", theme);
+            } catch (error) {
+                // The selected theme still applies on the current page.
+            }
+        }
+
+        function syncButtons(theme) {
+            var isDark = theme === "dark";
+            document.querySelectorAll(".theme-toggle").forEach(function(button) {
+                button.setAttribute("aria-pressed", String(isDark));
+                button.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+                button.setAttribute("title", isDark ? "Switch to light theme" : "Switch to dark theme");
+
+                var icon = button.querySelector("i");
+                if (icon) {
+                    icon.className = isDark ? "fas fa-sun" : "fas fa-moon";
+                }
+            });
+        }
+
+        window.applySiteTheme = function(theme) {
+            var normalizedTheme = theme === "dark" ? "dark" : "light";
+            document.documentElement.setAttribute("data-theme", normalizedTheme);
+            writeStoredTheme(normalizedTheme);
+            syncButtons(normalizedTheme);
+        };
+
+        window.toggleSiteTheme = function() {
+            var currentTheme = document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light";
+            window.applySiteTheme(currentTheme === "dark" ? "light" : "dark");
+        };
+
+        var storedTheme = readStoredTheme();
+        var initialTheme = storedTheme === "dark" ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", initialTheme);
+
+        document.addEventListener("DOMContentLoaded", function() {
+            syncButtons(document.documentElement.getAttribute("data-theme") === "dark" ? "dark" : "light");
+        });
     })();
 </script>

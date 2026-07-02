@@ -7,4 +7,4 @@ pages:
   url: /cv
 - name: Connectomics
   url: /connectomics
-  highlight: true
+  strong: true
