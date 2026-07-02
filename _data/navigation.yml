@@ -5,3 +5,6 @@ pages:
   url: /publications
 - name: CV
   url: /cv
+- name: Connectomics
+  url: /connectomics
+  highlight: true

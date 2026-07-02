@@ -48,6 +48,54 @@ h1, h2, h3, h4, h5, h6,
     -webkit-backdrop-filter: blur(16px);
 }
 
+.navbar .nav-item-highlight {
+    margin-left: 0.35rem;
+}
+
+.navbar .nav-link-highlight {
+    align-items: center;
+    background: linear-gradient(135deg, #006d96 0%, #0092ca 48%, #35c0a3 100%);
+    border: 1px solid rgba(255, 255, 255, 0.78);
+    border-radius: 999px;
+    box-shadow: 0 8px 22px rgba(0, 146, 202, 0.24), inset 0 1px 0 rgba(255, 255, 255, 0.45);
+    color: #ffffff !important;
+    display: inline-flex;
+    font-weight: 700;
+    gap: 0.42rem;
+    letter-spacing: 0;
+    margin-top: 0.05rem;
+    padding: 0.36rem 0.78rem !important;
+    transition: transform 0.16s ease, box-shadow 0.16s ease, filter 0.16s ease;
+}
+
+.navbar .nav-link-highlight:hover,
+.navbar .nav-link-highlight:focus {
+    box-shadow: 0 10px 26px rgba(0, 146, 202, 0.32), inset 0 1px 0 rgba(255, 255, 255, 0.55);
+    color: #ffffff !important;
+    filter: saturate(1.08);
+    transform: translateY(-1px);
+}
+
+.navbar .active .nav-link-highlight {
+    box-shadow: 0 0 0 3px rgba(53, 192, 163, 0.22), 0 10px 26px rgba(0, 146, 202, 0.28);
+}
+
+.navbar .nav-link-highlight i {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 575.98px) {
+    .navbar .nav-item-highlight {
+        margin-left: 0;
+        margin-top: 0.35rem;
+    }
+
+    .navbar .nav-link-highlight {
+        justify-content: center;
+        width: fit-content;
+    }
+}
+
 .inline-badge {
     height: 16px;
     vertical-align: -10%;
@@ -91,11 +139,6 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
     overflow-wrap: anywhere;
-}
-
-.connectomics-link {
-    display: inline-block;
-    margin-bottom: 0.25rem;
 }
 
 .connectomics-page {
