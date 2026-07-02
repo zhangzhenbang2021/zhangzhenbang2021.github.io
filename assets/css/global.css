@@ -12,10 +12,10 @@
     --site-link-hover: #004f70;
     --site-navbar-bg: rgba(255, 255, 255, 0.72);
     --site-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
-    --connectomics-panel: rgba(255, 255, 255, 0.86);
-    --connectomics-panel-strong: rgba(255, 255, 255, 0.9);
-    --connectomics-panel-soft: rgba(251, 253, 254, 0.86);
-    --connectomics-overlay: linear-gradient(180deg, rgba(248, 251, 252, 0.3) 0%, rgba(248, 251, 252, 0.5) 42%, rgba(248, 251, 252, 0.74) 100%);
+    --connectomics-panel: rgba(255, 255, 255, 0.78);
+    --connectomics-panel-strong: rgba(255, 255, 255, 0.82);
+    --connectomics-panel-soft: rgba(251, 253, 254, 0.76);
+    --connectomics-overlay: linear-gradient(180deg, rgba(248, 251, 252, 0.04) 0%, rgba(248, 251, 252, 0.1) 42%, rgba(248, 251, 252, 0.18) 100%);
 }
 
 html[data-theme="dark"] {
@@ -30,10 +30,10 @@ html[data-theme="dark"] {
     --site-link-hover: #a8e4ff;
     --site-navbar-bg: rgba(16, 20, 24, 0.78);
     --site-shadow: 0 1px 1px rgba(0, 0, 0, 0.32);
-    --connectomics-panel: rgba(18, 24, 30, 0.84);
-    --connectomics-panel-strong: rgba(20, 27, 34, 0.88);
-    --connectomics-panel-soft: rgba(28, 36, 44, 0.84);
-    --connectomics-overlay: linear-gradient(180deg, rgba(8, 12, 16, 0.32) 0%, rgba(8, 12, 16, 0.54) 46%, rgba(8, 12, 16, 0.76) 100%);
+    --connectomics-panel: rgba(18, 24, 30, 0.76);
+    --connectomics-panel-strong: rgba(20, 27, 34, 0.8);
+    --connectomics-panel-soft: rgba(28, 36, 44, 0.74);
+    --connectomics-overlay: linear-gradient(180deg, rgba(8, 12, 16, 0.08) 0%, rgba(8, 12, 16, 0.18) 46%, rgba(8, 12, 16, 0.32) 100%);
 }
 
 html {
@@ -249,7 +249,7 @@ body[data-page="connectomics"]::before {
     content: "";
     filter: saturate(1.22) contrast(1.02);
     inset: 0;
-    opacity: 0.68;
+    opacity: 1;
     pointer-events: none;
     position: fixed;
     z-index: 0;
@@ -276,8 +276,8 @@ body[data-page="connectomics"] > .navbar {
 }
 
 html[data-theme="dark"] body[data-page="connectomics"]::before {
-    filter: saturate(1.15) contrast(0.95) brightness(0.82);
-    opacity: 0.58;
+    filter: saturate(1.15) contrast(0.98) brightness(0.9);
+    opacity: 1;
 }
 
 .connectomics-page {
@@ -465,7 +465,7 @@ html[data-theme="dark"] body[data-page="connectomics"]::before {
 
     body[data-page="connectomics"]::before {
         background-position: 38% top;
-        opacity: 0.54;
+        opacity: 1;
     }
 
     .connectomics-hero {
