@@ -40,6 +40,10 @@ education:
   date: Sep. 2021 - Jun. 2025
 
 experience:
+- name: HKUST
+  dept: "Advisor: Xiaomeng Li"
+  position: Research Intern
+  date: Sep. 2026 - present
 - name: MBZUAI and Shandong University
   dept: "Advisors: Prof. Renmin Han and Prof. Zhiqiang Xu"
   position: Research Assistant
@@ -47,8 +51,4 @@ experience:
 - name: Mathematics and Interdisciplinary Science Center, Shandong University
   dept: "Advisor: Prof. Renmin Han"
   position: Research Intern
-  date: Jul. 2023 - Oct. 2025
-- name: Mathematics and Interdisciplinary Science Center, Shandong University
-  dept: "Advisor: Prof. Renmin Han"
-  position: Research Intern
-  date: Jun. 2022 - Jul. 2023
+  date: Jun. 2022 - Oct. 2025
