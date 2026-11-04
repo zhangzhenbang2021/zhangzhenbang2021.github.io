@@ -1,0 +1,7 @@
+{%- assign reading_paper = site.data.research_references | where: "key", include.key | first -%}
+<li class="research-reading-step">
+    {% if include.connection %}<span class="research-connection">{{ include.connection }}</span>{% endif %}
+    <span class="research-reading-date">{{ include.date }}</span>
+    <a href="{{ reading_paper.url }}">{{ reading_paper.short_title }}</a>
+    {% include widgets/research_citation.html key=include.key %}
+</li>

@@ -1,0 +1,150 @@
+---
+layout: default
+title: Current Research Interest
+navbar_title: Current Research Interest
+permalink: /research-interest
+body_attr: data-page="research-interest"
+---
+
+<main class="research-page" id="research-top">
+    <header class="research-header">
+        <p class="research-eyebrow">Research directions</p>
+        <h1>Current Research Interest</h1>
+        <p class="research-intro">I am interested in how training data and supervision shape what foundation models learn, retain, and generalize. My current interests span post-training for LLMs and MLLMs, and feedback-guided data synthesis for language, image, and video models.</p>
+        <nav class="research-contents" aria-label="On this page">
+            <a href="#post-training"><span>01</span> Learning &amp; retention</a>
+            <a href="#data-synthesis"><span>02</span> Feedback-guided synthesis</a>
+            <a href="#references">References</a>
+        </nav>
+    </header>
+
+    <section class="research-section" id="post-training" aria-labelledby="post-training-title">
+        <header class="research-section-heading">
+            <span class="research-section-number">01</span>
+            <div>
+                <h2 id="post-training-title">Learning and Retention in Post-Training</h2>
+                <p>Understanding the roles of SFT, RL, and training data</p>
+            </div>
+        </header>
+        <div class="research-prose">
+            <h3>Motivation</h3>
+            <p>I am interested in how foundation models acquire new knowledge, skills, and preferences while preserving existing capabilities and generalizing beyond their adaptation data. Evidence that reinforcement learning (RL) can learn new tasks with less forgetting than supervised fine-tuning (SFT){% include widgets/research_citation.html key="lai2026rft" %} makes me ask what allows it to improve one capability while leaving others relatively unchanged. The retention gains obtained by changing SFT data in <em>On-Policy Replay</em>{% include widgets/research_citation.html key="chen2026opr" %} and <em>Finetuning with Sampling</em>{% include widgets/research_citation.html key="karan2026sampling" %} suggest that part of the answer lies in what the model is asked to learn from each example.</p>
+            <p>The data-based explanations in <em>Data Perspective</em>{% include widgets/research_citation.html key="zhang2026dataperspective" %} and <em>Retaining by Doing</em>,{% include widgets/research_citation.html key="chen2026retaining" %} together with the preference for small policy changes described in <em>RL's Razor</em>,{% include widgets/research_citation.html key="shenfeld2026razor" %} led me to consider whether SFT sometimes encourages changes beyond those needed for the new task. Learning a useful skill from a demonstration also involves imitating its response. I would like to understand which aspects of that supervision contribute to the skill and which might alter behavior that was already useful.</p>
+            <p>However, the forgetting observed in on-policy self-distillation in <em>Denser &ne; Better</em>{% include widgets/research_citation.html key="wang2026denser" %} suggests that model-generated responses alone do not resolve this issue. <em>RL Forgets!</em>{% include widgets/research_citation.html key="luo2026cpo" %} adds another consideration: constraining policy changes on current-task data does not necessarily preserve behavior on earlier tasks. I would like to investigate whether identifying the changes needed for a new capability can guide how SFT examples are constructed and supervised, using new-task improvement and prior-task retention to assess the resulting updates.</p>
+        </div>
+
+        <figure class="research-reading-map" aria-labelledby="post-training-map-title">
+            <figcaption id="post-training-map-title"><strong>Reading map</strong><span>Connections between research questions; dates mark first arXiv appearance.</span></figcaption>
+            <div class="research-map-root">
+                <span class="research-reading-date">Jan. 2025</span>
+                <a href="https://proceedings.mlr.press/v267/chu25c.html">SFT Memorizes, RL Generalizes</a>{% include widgets/research_citation.html key="chu2025sft" %}
+            </div>
+            <div class="research-map-columns research-map-columns-two">
+                <div class="research-map-thread">
+                    <h4>Data and supervision</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="zhang2026dataperspective" date="Jun. 2025" connection="Data perspective" %}
+                        {% include widgets/research_reading_step.html key="shenfeld2026razor" date="Sep. 2025" connection="Distributional drift" %}
+                        {% include widgets/research_reading_step.html key="chen2026retaining" date="Oct. 2025" connection="On-policy mechanism" %}
+                    </ol>
+                    <ul class="research-reading-branches">
+                        {% include widgets/research_reading_step.html key="chen2026opr" date="May 2026" connection="Replay" %}
+                        {% include widgets/research_reading_step.html key="wang2026denser" date="Jul. 2026" connection="Distillation limits" %}
+                        {% include widgets/research_reading_step.html key="karan2026sampling" date="Oct. 2026" connection="Expert-data sampling" %}
+                    </ul>
+                </div>
+                <div class="research-map-thread">
+                    <h4>Continual tasks</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="lai2026rft" date="Jul. 2025" connection="Continual learning" %}
+                        {% include widgets/research_reading_step.html key="luo2026cpo" date="Jul. 2026" connection="Limits of RL" %}
+                    </ol>
+                </div>
+            </div>
+        </figure>
+
+        <div class="research-prose">
+            <h3>Connections to generative modeling</h3>
+            <p><em>CRAFT</em>{% include widgets/research_citation.html key="sun2026craft" %} connects to my interest in whether some benefits of RL can be obtained through changes to SFT data and supervision. I would like to investigate whether such choices also affect how much prior capability is retained when learning a new behavior. <em>G<sup>3</sup>-LoRA</em>{% include widgets/research_citation.html key="song2026g3lora" %} connects to the interference aspect of this question. Its use of gradient compatibility highlights why interactions between training categories matter alongside their individual rewards. I am interested in studying a related interaction across sequential tasks: how updates that improve a new capability affect capabilities learned earlier.</p>
+            <h3>Questions I would like to explore</h3>
+            <blockquote class="research-question"><p>How can training data and supervision help a foundation model acquire new capabilities with less interference with what it already knows?</p></blockquote>
+            <p>I would like to study how the relationship between training examples and the current model affects this process, and how different ways of supervising those examples change the outcome. This would help me understand when SFT data design can improve retention and generalization, and when online reward optimization provides additional benefits. I am interested in pursuing these questions in LLMs and MLLMs and extending the findings to controllable video generation.</p>
+        </div>
+    </section>
+
+    <section class="research-section" id="data-synthesis" aria-labelledby="data-synthesis-title">
+        <header class="research-section-heading">
+            <span class="research-section-number">02</span>
+            <div>
+                <h2 id="data-synthesis-title">Feedback-Guided Data Synthesis</h2>
+                <p>Choosing what to generate for a particular learner</p>
+            </div>
+        </header>
+        <div class="research-prose">
+            <h3>Motivation and reading</h3>
+            <p>I am also interested in using generative models to produce training data that helps a particular downstream learner. The finding in <em>LESS</em>{% include widgets/research_citation.html key="xia2024less" %} that a small, targeted subset can outperform the full training pool makes me think that data generation should account for what a particular model can gain from an example. <em>Montessori-Instruct</em>{% include widgets/research_citation.html key="li2025montessori" %} uses short-update improvements to guide teacher generation, while <em>SEAL</em>{% include widgets/research_citation.html key="zweiger2025seal" %} evaluates generated training content through the student's subsequent performance. These results suggest that learning feedback can help a generator produce more useful data. What interests me here is the distinction between identifying where a model fails and knowing what examples would help it improve.</p>
+            <p>This also makes the choice of feedback important. <em>OptimSyn</em>{% include widgets/research_citation.html key="fan2026optimsyn" %} uses estimated data influence to reward generation rubrics, whereas <em>Dataset Policy Gradients</em>{% include widgets/research_citation.html key="thrush2026dpg" %} derives sample-level rewards through training meta-gradients. I would like to understand when such signals predict the benefit of generated data after a longer training run, and whether that prediction remains useful as the learner changes.</p>
+        </div>
+
+        <figure class="research-reading-map" aria-labelledby="data-synthesis-map-title">
+            <figcaption id="data-synthesis-map-title"><strong>Reading map</strong><span>Connections between research questions; dates mark first arXiv appearance unless a venue is shown.</span></figcaption>
+            <div class="research-map-root">Which training data best help a particular learner?</div>
+            <div class="research-map-columns research-map-columns-four">
+                <div class="research-map-thread">
+                    <h4>Data selection</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="xia2024less" date="Feb. 2024" %}
+                        {% include widgets/research_reading_step.html key="gao2025selectivedpo" date="Feb. 2025" connection="Capacity fit" %}
+                        {% include widgets/research_reading_step.html key="yang2026metaapo" date="Sep. 2025" connection="Adaptive sampling" %}
+                    </ol>
+                </div>
+                <div class="research-map-thread">
+                    <h4>Student feedback</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="li2025montessori" date="Oct. 2024" %}
+                        {% include widgets/research_reading_step.html key="zweiger2025seal" date="Jun. 2025" connection="Post-update utility" %}
+                    </ol>
+                    <ul class="research-reading-branches">
+                        {% include widgets/research_reading_step.html key="fan2026optimsyn" date="Apr. 2026" connection="Influence rewards" %}
+                        {% include widgets/research_reading_step.html key="thrush2026dpg" date="Apr. 2026" connection="Training meta-gradients" %}
+                    </ul>
+                </div>
+                <div class="research-map-thread">
+                    <h4>Visual synthesis</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="li2025gendataagent" date="ICLR 2025" %}
+                        {% include widgets/research_reading_step.html key="guo2025utilgen" date="Oct. 2025" connection="Utility-guided adaptation" %}
+                    </ol>
+                </div>
+                <div class="research-map-thread">
+                    <h4>Feature coverage</h4>
+                    <ol class="research-reading-list">
+                        {% include widgets/research_reading_step.html key="li2026fac" date="Feb. 2026" %}
+                    </ol>
+                </div>
+            </div>
+        </figure>
+
+        <div class="research-prose">
+            <h3>Connecting influence to generation</h3>
+            <p><em>UtilGen</em>{% include widgets/research_citation.html key="guo2025utilgen" %} and <em>Diff-In</em>{% include widgets/research_citation.html key="tan2025diffin" %} connect to my interest in using downstream learning feedback to guide synthetic data generation. UtilGen uses this feedback to adapt both the diffusion model and generation conditions, while Diff-In estimates how individual training examples influence a target outcome. I would like to investigate whether influence measured on a small set of generated examples can help decide which conditions deserve additional synthetic data, and how reliably these estimates predict the benefit of subsequent generation as the learner improves.</p>
+            <h3>Questions I would like to explore</h3>
+            <p>The usefulness of synthetic data depends on the learner and the training data it already has. A large prediction error may indicate insufficient coverage, but it does not necessarily mean that generating more examples of the same kind will help.</p>
+            <blockquote class="research-question"><p>Given the current learner and training set, how can we identify which conditions would benefit most from additional synthetic data under a limited compute budget?</p></blockquote>
+            <p>I would like to investigate whether influence estimates from small batches of generated examples can predict the benefit of further generation, and how that prediction changes as similar examples accumulate and the learner improves. With a fixed generator, feedback-guided allocation can be compared with allocation based on prediction error, assessing the resulting gains on held-out data after retraining. My aim is to understand when targeted generation provides enough learning benefit to justify its cost, and how generation decisions should change during training.</p>
+        </div>
+    </section>
+
+    <section class="research-references" id="references" aria-labelledby="references-title">
+        <h2 id="references-title">References</h2>
+        <ol>
+            {% for reference in site.data.research_references %}
+            <li id="ref-{{ reference.key }}">
+                <a href="{{ reference.url }}">{{ reference.title | escape }}</a>
+                <span class="research-reference-meta">{{ reference.authors | escape }} &middot; {{ reference.venue | escape }}</span>
+            </li>
+            {% endfor %}
+        </ol>
+        <a class="research-back-top" href="#research-top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+    </section>
+</main>

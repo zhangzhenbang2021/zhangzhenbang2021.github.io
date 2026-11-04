@@ -1,0 +1,6 @@
+{%- for reference in site.data.research_references -%}
+  {%- if reference.key == include.key -%}
+    <sup class="research-citation"><a href="#ref-{{ reference.key }}" aria-label="Reference {{ forloop.index }}: {{ reference.title | escape }}">[{{ forloop.index }}]</a></sup>
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
