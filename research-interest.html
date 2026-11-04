@@ -35,32 +35,7 @@ body_attr: data-page="research-interest"
 
         <figure class="research-reading-map" aria-labelledby="post-training-map-title">
             <figcaption id="post-training-map-title"><strong>Reading map</strong><span>Connections between research questions; dates mark first arXiv appearance.</span></figcaption>
-            <div class="research-map-root">
-                <span class="research-reading-date">Jan. 2025</span>
-                <a href="https://proceedings.mlr.press/v267/chu25c.html">SFT Memorizes, RL Generalizes</a>{% include widgets/research_citation.html key="chu2025sft" %}
-            </div>
-            <div class="research-map-columns research-map-columns-two">
-                <div class="research-map-thread">
-                    <h4>Data and supervision</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="zhang2026dataperspective" date="Jun. 2025" connection="Data perspective" %}
-                        {% include widgets/research_reading_step.html key="shenfeld2026razor" date="Sep. 2025" connection="Distributional drift" %}
-                        {% include widgets/research_reading_step.html key="chen2026retaining" date="Oct. 2025" connection="On-policy mechanism" %}
-                    </ol>
-                    <ul class="research-reading-branches">
-                        {% include widgets/research_reading_step.html key="chen2026opr" date="May 2026" connection="Replay" %}
-                        {% include widgets/research_reading_step.html key="wang2026denser" date="Jul. 2026" connection="Distillation limits" %}
-                        {% include widgets/research_reading_step.html key="karan2026sampling" date="Oct. 2026" connection="Expert-data sampling" %}
-                    </ul>
-                </div>
-                <div class="research-map-thread">
-                    <h4>Continual tasks</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="lai2026rft" date="Jul. 2025" connection="Continual learning" %}
-                        {% include widgets/research_reading_step.html key="luo2026cpo" date="Jul. 2026" connection="Limits of RL" %}
-                    </ol>
-                </div>
-            </div>
+            {% include widgets/research_tree.html map="post_training" %}
         </figure>
 
         <div class="research-prose">
@@ -88,41 +63,7 @@ body_attr: data-page="research-interest"
 
         <figure class="research-reading-map" aria-labelledby="data-synthesis-map-title">
             <figcaption id="data-synthesis-map-title"><strong>Reading map</strong><span>Connections between research questions; dates mark first arXiv appearance unless a venue is shown.</span></figcaption>
-            <div class="research-map-root">Which training data best help a particular learner?</div>
-            <div class="research-map-columns research-map-columns-four">
-                <div class="research-map-thread">
-                    <h4>Data selection</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="xia2024less" date="Feb. 2024" %}
-                        {% include widgets/research_reading_step.html key="gao2025selectivedpo" date="Feb. 2025" connection="Capacity fit" %}
-                        {% include widgets/research_reading_step.html key="yang2026metaapo" date="Sep. 2025" connection="Adaptive sampling" %}
-                    </ol>
-                </div>
-                <div class="research-map-thread">
-                    <h4>Student feedback</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="li2025montessori" date="Oct. 2024" %}
-                        {% include widgets/research_reading_step.html key="zweiger2025seal" date="Jun. 2025" connection="Post-update utility" %}
-                    </ol>
-                    <ul class="research-reading-branches">
-                        {% include widgets/research_reading_step.html key="fan2026optimsyn" date="Apr. 2026" connection="Influence rewards" %}
-                        {% include widgets/research_reading_step.html key="thrush2026dpg" date="Apr. 2026" connection="Training meta-gradients" %}
-                    </ul>
-                </div>
-                <div class="research-map-thread">
-                    <h4>Visual synthesis</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="li2025gendataagent" date="ICLR 2025" %}
-                        {% include widgets/research_reading_step.html key="guo2025utilgen" date="Oct. 2025" connection="Utility-guided adaptation" %}
-                    </ol>
-                </div>
-                <div class="research-map-thread">
-                    <h4>Feature coverage</h4>
-                    <ol class="research-reading-list">
-                        {% include widgets/research_reading_step.html key="li2026fac" date="Feb. 2026" %}
-                    </ol>
-                </div>
-            </div>
+            {% include widgets/research_tree.html map="data_synthesis" %}
         </figure>
 
         <div class="research-prose">

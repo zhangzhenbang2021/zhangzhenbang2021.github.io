@@ -1,0 +1,284 @@
+post_training:
+  id: post-training-tree
+  width: 1040
+  height: 580
+  title: Learning and retention reading tree
+  description: "SFT Memorizes, RL Generalizes branches into Data Perspective and RFT Mitigates Forgetting. The data branch proceeds through RL's Razor to Retaining by Doing, which branches into On-Policy Replay, Denser Not Equal Better, and Finetuning with Sampling. The continual-task branch proceeds to RL Forgets! / CPO."
+  nodes:
+    - key: chu2025sft
+      date: 2025-01
+      x: 400
+      y: 12
+      width: 300
+      height: 82
+      lines: ["SFT Memorizes,", "RL Generalizes"]
+    - key: zhang2026dataperspective
+      date: 2025-06
+      x: 260
+      y: 146
+      width: 250
+      height: 64
+      core: true
+      lines: [Data Perspective]
+    - key: lai2026rft
+      date: 2025-07
+      x: 750
+      y: 146
+      width: 270
+      height: 64
+      lines: [RFT Mitigates Forgetting]
+    - key: shenfeld2026razor
+      date: 2025-09
+      x: 260
+      y: 260
+      width: 250
+      height: 64
+      core: true
+      lines: ["RL's Razor"]
+    - key: luo2026cpo
+      date: 2026-07
+      x: 750
+      y: 260
+      width: 270
+      height: 64
+      lines: [RL Forgets! / CPO]
+    - key: chen2026retaining
+      date: 2025-10
+      x: 260
+      y: 374
+      width: 250
+      height: 64
+      core: true
+      lines: [Retaining by Doing]
+    - key: chen2026opr
+      date: 2026-05
+      x: 18
+      y: 496
+      width: 250
+      height: 64
+      lines: [On-Policy Replay]
+    - key: wang2026denser
+      date: 2026-07
+      x: 290
+      y: 496
+      width: 250
+      height: 64
+      core: true
+      lines: ["Denser \u2260 Better"]
+    - key: karan2026sampling
+      date: 2026-10
+      x: 564
+      y: 496
+      width: 270
+      height: 64
+      core: true
+      lines: [Finetuning with Sampling]
+  edges:
+    - from: chu2025sft
+      to: zhang2026dataperspective
+      path: M 470 94 L 385 146
+      label: data perspective
+      label_x: 358
+      label_y: 118
+    - from: chu2025sft
+      to: lai2026rft
+      path: M 630 94 L 885 146
+      label: continual tasks
+      label_x: 800
+      label_y: 116
+    - from: zhang2026dataperspective
+      to: shenfeld2026razor
+      path: M 385 210 L 385 260
+      label: distributional drift
+      label_x: 375
+      label_y: 240
+      anchor: end
+    - from: shenfeld2026razor
+      to: chen2026retaining
+      path: M 385 324 L 385 374
+      label: on-policy mechanism
+      label_x: 375
+      label_y: 354
+      anchor: end
+    - from: lai2026rft
+      to: luo2026cpo
+      path: M 885 210 L 885 260
+      label: limits of RL
+      label_x: 895
+      label_y: 240
+      anchor: start
+    - from: chen2026retaining
+      to: chen2026opr
+      path: M 305 438 L 143 496
+      label: replay
+      label_x: 195
+      label_y: 466
+    - from: chen2026retaining
+      to: wang2026denser
+      path: M 385 438 L 415 496
+      label: distillation limits
+      label_x: 420
+      label_y: 478
+      anchor: start
+    - from: chen2026retaining
+      to: karan2026sampling
+      path: M 460 438 L 699 496
+      label: expert-data sampling
+      label_x: 642
+      label_y: 462
+
+data_synthesis:
+  id: data-synthesis-tree
+  width: 1240
+  height: 628
+  title: Feedback-guided data synthesis reading tree
+  description: "Which training data best help a particular learner? Four branches explore data selection through LESS, Selective DPO, and MetaAPO; student feedback through Montessori-Instruct and SEAL, then OptimSyn and Dataset Policy Gradients; visual synthesis through GenDataAgent and UtilGen; and feature coverage through FAC / Less is Enough."
+  nodes:
+    - id: learner
+      x: 415
+      y: 16
+      width: 410
+      height: 70
+      core: true
+      lines: [Which training data best help, a particular learner?]
+    - key: xia2024less
+      date: 2024-02
+      x: 10
+      y: 178
+      width: 270
+      height: 74
+      lines: [LESS]
+    - key: li2025montessori
+      date: 2024-10
+      x: 320
+      y: 178
+      width: 270
+      height: 74
+      core: true
+      lines: [Montessori-Instruct]
+    - key: li2025gendataagent
+      date: ICLR 2025
+      x: 630
+      y: 178
+      width: 270
+      height: 74
+      lines: [GenDataAgent]
+    - key: li2026fac
+      date: 2026-02
+      x: 940
+      y: 178
+      width: 280
+      height: 74
+      lines: [FAC / Less is Enough]
+    - key: gao2025selectivedpo
+      date: 2025-02
+      x: 10
+      y: 338
+      width: 270
+      height: 74
+      lines: [Selective DPO]
+    - key: zweiger2025seal
+      date: 2025-06
+      x: 310
+      y: 338
+      width: 290
+      height: 74
+      core: true
+      lines: [Self-Adapting LMs / SEAL]
+    - key: guo2025utilgen
+      date: 2025-10
+      x: 630
+      y: 338
+      width: 270
+      height: 74
+      core: true
+      lines: [UtilGen]
+    - key: yang2026metaapo
+      date: 2025-09
+      x: 10
+      y: 514
+      width: 270
+      height: 88
+      lines: [MetaAPO /, Online Sampling]
+    - key: fan2026optimsyn
+      date: 2026-04
+      x: 320
+      y: 514
+      width: 270
+      height: 88
+      core: true
+      lines: [OptimSyn]
+    - key: thrush2026dpg
+      date: 2026-04
+      x: 630
+      y: 514
+      width: 290
+      height: 88
+      core: true
+      lines: [Dataset Policy Gradients, / DPG]
+  edges:
+    - from: learner
+      to: xia2024less
+      path: M 450 86 L 145 178
+      label: data selection
+      label_x: 280
+      label_y: 128
+    - from: learner
+      to: li2025montessori
+      path: M 560 86 L 455 178
+      label: student feedback
+      label_x: 470
+      label_y: 136
+    - from: learner
+      to: li2025gendataagent
+      path: M 680 86 L 765 178
+      label: visual synthesis
+      label_x: 748
+      label_y: 136
+    - from: learner
+      to: li2026fac
+      path: M 790 86 L 1080 178
+      label: feature coverage
+      label_x: 980
+      label_y: 128
+    - from: xia2024less
+      to: gao2025selectivedpo
+      path: M 145 252 L 145 338
+      label: capacity fit
+      label_x: 155
+      label_y: 300
+      anchor: start
+    - from: gao2025selectivedpo
+      to: yang2026metaapo
+      path: M 145 412 L 145 514
+      label: adaptive sampling
+      label_x: 155
+      label_y: 470
+      anchor: start
+    - from: li2025montessori
+      to: zweiger2025seal
+      path: M 455 252 L 455 338
+      label: post-update utility
+      label_x: 445
+      label_y: 300
+      anchor: end
+    - from: li2025gendataagent
+      to: guo2025utilgen
+      path: M 765 252 L 765 338
+      label: utility-guided adaptation
+      label_x: 775
+      label_y: 300
+      anchor: start
+    - from: zweiger2025seal
+      to: fan2026optimsyn
+      path: M 435 412 L 455 514
+      label: influence rewards
+      label_x: 435
+      label_y: 470
+      anchor: end
+    - from: zweiger2025seal
+      to: thrush2026dpg
+      path: M 505 412 L 775 514
+      label: training meta-gradients
+      label_x: 665
+      label_y: 462
