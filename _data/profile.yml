@@ -23,7 +23,7 @@ short_bio: >-
     inconsistent visual observations by modeling visual degradation and developing reconstruction methods that preserve structure.
   </p>
   <p>
-    My current research interests center on two directions. First, I study post-training for large language models (LLMs),
+    My current research interests center on two directions. First, I study post-training for large language and multimodal language models (LLMs/MLLMs),
     with a focus on understanding how supervised fine-tuning (SFT) and reinforcement learning (RL) help foundation models
     acquire new capabilities while retaining prior knowledge and improving generalization. Second, I am interested in synthetic
     data generation for LLMs and image and video models. In particular, I explore how downstream learning feedback can guide
