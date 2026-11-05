@@ -39,8 +39,6 @@ body_attr: data-page="research-interest"
         </figure>
 
         <div class="research-prose">
-            <h3>Connections to generative modeling</h3>
-            <p><em>CRAFT</em>{% include widgets/research_citation.html key="sun2026craft" %} connects to my interest in whether some benefits of RL can be obtained through changes to SFT data and supervision. I would like to investigate whether such choices also affect how much prior capability is retained when learning a new behavior. <em>G<sup>3</sup>-LoRA</em>{% include widgets/research_citation.html key="song2026g3lora" %} connects to the interference aspect of this question. Its use of gradient compatibility highlights why interactions between training categories matter alongside their individual rewards. I am interested in studying a related interaction across sequential tasks: how updates that improve a new capability affect capabilities learned earlier.</p>
             <h3>Questions I would like to explore</h3>
             <blockquote class="research-question"><p>How can training data and supervision help a foundation model acquire new capabilities with less interference with what it already knows?</p></blockquote>
             <p>I would like to study how the relationship between training examples and the current model affects this process, and how different ways of supervising those examples change the outcome. This would help me understand when SFT data design can improve retention and generalization, and when online reward optimization provides additional benefits. I am interested in pursuing these questions in LLMs and MLLMs and extending the findings to controllable video generation.</p>
@@ -67,8 +65,6 @@ body_attr: data-page="research-interest"
         </figure>
 
         <div class="research-prose">
-            <h3>Connecting influence to generation</h3>
-            <p><em>UtilGen</em>{% include widgets/research_citation.html key="guo2025utilgen" %} and <em>Diff-In</em>{% include widgets/research_citation.html key="tan2025diffin" %} connect to my interest in using downstream learning feedback to guide synthetic data generation. UtilGen uses this feedback to adapt both the diffusion model and generation conditions, while Diff-In estimates how individual training examples influence a target outcome. I would like to investigate whether influence measured on a small set of generated examples can help decide which conditions deserve additional synthetic data, and how reliably these estimates predict the benefit of subsequent generation as the learner improves.</p>
             <h3>Questions I would like to explore</h3>
             <p>The usefulness of synthetic data depends on the learner and the training data it already has. A large prediction error may indicate insufficient coverage, but it does not necessarily mean that generating more examples of the same kind will help.</p>
             <blockquote class="research-question"><p>Given the current learner and training set, how can we identify which conditions would benefit most from additional synthetic data under a limited compute budget?</p></blockquote>
