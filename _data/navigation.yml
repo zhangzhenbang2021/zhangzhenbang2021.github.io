@@ -8,6 +8,3 @@ pages:
 - name: Connectomics
   url: /connectomics
   strong: true
-- name: Current Research Interest
-  url: /research-interest
-  strong: true
