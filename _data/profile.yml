@@ -23,12 +23,8 @@ short_bio: >-
     inconsistent visual observations by modeling visual degradation and developing reconstruction methods that preserve structure.
   </p>
   <p>
-    My current research interests center on two directions. First, I study post-training for large language and multimodal language models (LLMs/MLLMs),
-    with a focus on understanding how supervised fine-tuning (SFT) and reinforcement learning (RL) help foundation models
-    acquire new capabilities while retaining prior knowledge and improving generalization. Second, I am interested in synthetic
-    data generation for LLMs and image and video models. In particular, I explore how downstream learning feedback can guide
-    synthetic data generation, including how to identify examples that are most beneficial to a learner at its current stage
-    of training.
+    My current research focuses on foundational questions in LLM and MLLM post-training, visual generative modeling,
+    and reinforcement learning.
   </p>
 
 portrait_url: /assets/images/photos/zhenbang-zhang.png
